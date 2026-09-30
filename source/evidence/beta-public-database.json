@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "version": "0.1.0-beta.1",
+  "exporter_sha256": "10d21213ba5f9c413427d5bf88535f35a091c491394594b7ff5006e9969c8431",
+  "relational_tables_compared": [
+    "entry",
+    "sense",
+    "table_context",
+    "form",
+    "form_surface",
+    "surface",
+    "head",
+    "relation",
+    "relation_target",
+    "link",
+    "link_occurrence",
+    "link_target",
+    "redirect",
+    "ownership",
+    "issue",
+    "change",
+    "source_review",
+    "reviewed_owner",
+    "relation_review"
+  ],
+  "staging_sha256": "147d1ba7c4acf3be29941515c19473e599874ac8e4dfb0267038951d9f8401ce",
+  "files": {
+    "dictionary.sqlite": {
+      "bytes": 3982229504,
+      "sha256": "09f309487e2cfc2921791f81b4c3b86a0b38622ab958fed8792756adb92e0da3"
+    },
+    "dictionary.sqlite.gz": {
+      "bytes": 1222929658,
+      "sha256": "669662e5f2799791c629e7f60c127d16f10a100897ba94aff9062627928c9827"
+    },
+    "schema.sql": {
+      "bytes": 5059,
+      "sha256": "76d38834c5fc60e1067ef4c2a2169540cfc447a5097e8773347ffe275ff4f076"
+    }
+  }
+}

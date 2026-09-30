@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "package": "66a15aed906a7d120b2d",
+  "browser": "154.0.8037.92",
+  "checks": [
+    "structured protocol errors",
+    "damaged cached shard restored online",
+    "missing bootstrap restored online",
+    "new package waits while current reader stays active",
+    "explicit activation reloads matching shell and manifest"
+  ]
+}

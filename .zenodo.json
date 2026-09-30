@@ -1,0 +1,39 @@
+{
+  "title": "Latin & Ancient Greek dictionary: Wiktionary-derived edition",
+  "upload_type": "dataset",
+  "description": "<p>Version 0.1.0-beta.1 (beta): a fixed English Wiktionary-derived Latin and Ancient Greek dictionary by Classical Cat DH Lab, with source-qualified corrections and a finite offline word-form index. This record archives the actual portable SQLite data, static reader, original input slices, admitted source witnesses, software source and checksums. Frontend presentation remains provisional.</p><p>Derived data and data documentation: CC BY-SA 4.0, preserving Wiktionary contributor credit and separately credited quotations. Original software: AGPL-3.0-only; fonts retain their own licences. Independent edition, not endorsed by Wikimedia. See the included licence map and NOTICE.</p>",
+  "creators": [
+    {
+      "name": "Fang, Xinjie",
+      "affiliation": "Classical Cat DH Lab",
+      "orcid": "0009-0001-0829-8898"
+    },
+    {
+      "name": "Classical Cat DH Lab"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-sa-4.0",
+  "version": "0.1.0-beta.1",
+  "publication_date": "2026-09-30",
+  "keywords": [
+    "Latin",
+    "Ancient Greek",
+    "Wiktionary",
+    "dictionary",
+    "digital humanities",
+    "offline"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/tree/v0.1.0-beta.1",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://data.latingreek.org/wiktionary/",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ]
+}

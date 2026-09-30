@@ -1,0 +1,29 @@
+{
+  "scope": "Pinned page revisions rendered with templates at capture time; supplements to the base, not a common historical dump instant",
+  "files": [
+    {
+      "title": "κλῄζω",
+      "revision": 92958398,
+      "file": "92958398.json",
+      "url": "https://en.wiktionary.org/w/api.php?action=parse&oldid=92958398&prop=text%7Cwikitext%7Csections%7Crevid%7Cdisplaytitle&format=json&formatversion=2&maxlag=5",
+      "sha256": "e357f4cb1d5a99bfed5caa12b16491c65564a0ce1cf9c2dba68362a790419aa0",
+      "bytes": 11119
+    },
+    {
+      "title": "ἀνακόπτω",
+      "revision": 92480681,
+      "file": "92480681.json",
+      "url": "https://en.wiktionary.org/w/api.php?action=parse&oldid=92480681&prop=text%7Cwikitext%7Csections%7Crevid%7Cdisplaytitle&format=json&formatversion=2&maxlag=5",
+      "sha256": "cb8d761e4d4ecdc32e2fe27e20e3451d28b662eecb7ef45a8afaa4d30cf2e178",
+      "bytes": 144310
+    },
+    {
+      "title": "συνέχω",
+      "revision": 90548071,
+      "file": "90548071.json",
+      "url": "https://en.wiktionary.org/w/api.php?action=parse&oldid=90548071&prop=text%7Cwikitext%7Csections%7Crevid%7Cdisplaytitle&format=json&formatversion=2&maxlag=5",
+      "sha256": "6963de598a0c48ac06bbe4d8032c89d395fda005e0b44db96538e24de23768d3",
+      "bytes": 145381
+    }
+  ]
+}

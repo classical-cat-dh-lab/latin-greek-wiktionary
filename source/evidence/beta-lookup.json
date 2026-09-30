@@ -1,0 +1,12 @@
+{
+  "started": "2026-09-30T08:31:48.136Z",
+  "postings": 4930669,
+  "surfaces": 2798763,
+  "profileQueries": 11195052,
+  "normalizationChecks": 22390104,
+  "spanFailures": 0,
+  "spanExamples": [],
+  "failures": [],
+  "finished": "2026-09-30T08:32:56.992Z",
+  "pass": true
+}

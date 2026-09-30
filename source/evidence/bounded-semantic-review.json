@@ -1,0 +1,469 @@
+{
+  "schema": "wiktionary-bounded-semantic-review/1",
+  "assessment_sha256": "dac534a166da27eb5e2e9c14d370eee15ca9220b155fa5589382a12e83bb76c6",
+  "method": "Read all 32 source senses in the 38-edge Greek form_of-without-Greek-letters stratum; classify the described relation from the preserved gloss. This is source-local semantic review, not a random quality sample or historical-page verification.",
+  "source_sha256": "f309d7e667f40879c43f057c92ada06e1b202d1e9694da6ec3eee22638cd8999",
+  "counts_by_sense_class": {
+    "cross_language_name_equivalence": 2,
+    "grammatical_ending_description": 24,
+    "ordinary_definition_misparsed_as_form_of": 6
+  },
+  "records": [
+    {
+      "slice_line": 690,
+      "word": "Μίθρας",
+      "pos": "name",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Greek form of Iranian Mithra (e.g. Herodotus Histories I,131; Plutarch, Isis and Osiris 46.7)"
+      ],
+      "targets": [
+        "Iranian Mithra"
+      ],
+      "assessment": "cross_language_name_equivalence",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 690,
+      "word": "Μίθρας",
+      "pos": "name",
+      "pointer": "/senses/2",
+      "glosses": [
+        "Greek form of Latin Mithras, cult figure of the Roman mystery religion that flourished between 100 and 400 AD."
+      ],
+      "targets": [
+        "Latin Mithras",
+        "cult figure of the Roman mystery religion that flourished between 100 and 400 AD"
+      ],
+      "assessment": "cross_language_name_equivalence",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 4455,
+      "word": "κάλαμος",
+      "pos": "noun",
+      "pointer": "/senses/6",
+      "glosses": [
+        "collectively, of plants, which are neither bush, nor tree"
+      ],
+      "targets": [
+        "nor tree",
+        "plants",
+        "which are neither bush"
+      ],
+      "assessment": "ordinary_definition_misparsed_as_form_of",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 5908,
+      "word": "πόσος",
+      "pos": "adj",
+      "pointer": "/senses/0",
+      "glosses": [
+        "interrogative adjective of quantity: how much?, how many?, how big?, how great?, how far?, how long?"
+      ],
+      "targets": [
+        "quantity"
+      ],
+      "assessment": "ordinary_definition_misparsed_as_form_of",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 6050,
+      "word": "συμπέρασμα",
+      "pos": "noun",
+      "pointer": "/senses/2",
+      "glosses": [
+        "finishing, end",
+        "conclusion in a syllogism",
+        "subject of the conclusion"
+      ],
+      "targets": [
+        "the conclusion"
+      ],
+      "assessment": "ordinary_definition_misparsed_as_form_of",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 8495,
+      "word": "ἔγκλισις",
+      "pos": "noun",
+      "pointer": "/senses/5",
+      "glosses": [
+        "inflection of derivative forms"
+      ],
+      "targets": [
+        "derivative forms",
+        "derivative forms"
+      ],
+      "assessment": "ordinary_definition_misparsed_as_form_of",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10401,
+      "word": "-ος",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Nominative singular of masculine and feminine second-declension nouns"
+      ],
+      "targets": [
+        "masculine and feminine second-declension nouns"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10401,
+      "word": "-ος",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Masculine nominative singular of first- and second-declension adjectives"
+      ],
+      "targets": [
+        "first- and second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10401,
+      "word": "-ος",
+      "pos": "suffix",
+      "pointer": "/senses/2",
+      "glosses": [
+        "Masculine and feminine nominative singular of second-declension adjectives"
+      ],
+      "targets": [
+        "second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10402,
+      "word": "-ος",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Genitive singular of consonant-stem or uncontracted third-declension nouns"
+      ],
+      "targets": [
+        "consonant-stem or uncontracted third-declension nouns"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10402,
+      "word": "-ος",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Genitive singular of consonant-stem or uncontracted third-declension masculine or neuter adjectives"
+      ],
+      "targets": [
+        "consonant-stem or uncontracted third-declension masculine or neuter adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10444,
+      "word": "-ου",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Genitive singular of second-declension nouns and adjectives"
+      ],
+      "targets": [
+        "second-declension nouns and adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10444,
+      "word": "-ου",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Masculine and neuter genitive singular of first- and second-declension adjectives"
+      ],
+      "targets": [
+        "first- and second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10445,
+      "word": "-ῳ",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Dative singular of second-declension nouns and adjectives"
+      ],
+      "targets": [
+        "second-declension nouns and adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10445,
+      "word": "-ῳ",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Dative singular of second-declension adjectives"
+      ],
+      "targets": [
+        "second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10445,
+      "word": "-ῳ",
+      "pos": "suffix",
+      "pointer": "/senses/2",
+      "glosses": [
+        "Masculine and neuter dative singular of second-declension adjectives"
+      ],
+      "targets": [
+        "second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10446,
+      "word": "-οι",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Nominative plural of masculine and feminine second-declension nouns"
+      ],
+      "targets": [
+        "masculine and feminine second-declension nouns"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10446,
+      "word": "-οι",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Masculine nominative plural of first- and second-declension adjectives"
+      ],
+      "targets": [
+        "first- and second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10446,
+      "word": "-οι",
+      "pos": "suffix",
+      "pointer": "/senses/2",
+      "glosses": [
+        "Masculine and feminine nominative plural of second-declension adjectives"
+      ],
+      "targets": [
+        "second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10446,
+      "word": "-οι",
+      "pos": "suffix",
+      "pointer": "/senses/3",
+      "glosses": [
+        "Archaic locative singular of some second-declension nouns"
+      ],
+      "targets": [
+        "some second-declension nouns"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10446,
+      "word": "-οι",
+      "pos": "suffix",
+      "pointer": "/senses/4",
+      "glosses": [
+        "Dative singular of o-stem third-declension nouns"
+      ],
+      "targets": [
+        "o-stem third-declension nouns"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10447,
+      "word": "-ων",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Genitive plural of second- and third-declension nouns and adjectives not accented on the ultima"
+      ],
+      "targets": [
+        "second- and third-declension nouns and adjectives not accented on the ultima"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10447,
+      "word": "-ων",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Masculine and neuter genitive plural of first- and second-declension not accented on the ultima"
+      ],
+      "targets": [
+        "first- and second-declension not accented on the ultima"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10448,
+      "word": "-ων",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Masculine singular of present, future, and second aorist active participles"
+      ],
+      "targets": [
+        "and second aorist active participles",
+        "future",
+        "present"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10452,
+      "word": "-ῶν",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Feminine genitive plural of first- and second-declension adjectives"
+      ],
+      "targets": [
+        "first- and second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10452,
+      "word": "-ῶν",
+      "pos": "suffix",
+      "pointer": "/senses/2",
+      "glosses": [
+        "Feminine genitive plural of first- and third-declension adjectives"
+      ],
+      "targets": [
+        "first- and third-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10453,
+      "word": "-ῶν",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Masculine and neuter genitive plural of second-declension nouns accented on the ultima"
+      ],
+      "targets": [
+        "second-declension nouns accented on the ultima"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10453,
+      "word": "-ῶν",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Masculine and neuter genitive plural of first- and second-declension adjectives accented on the ultima"
+      ],
+      "targets": [
+        "first- and second-declension adjectives accented on the ultima"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10456,
+      "word": "-οις",
+      "pos": "suffix",
+      "pointer": "/senses/0",
+      "glosses": [
+        "Dative plural of second-declension nouns and adjectives"
+      ],
+      "targets": [
+        "second-declension nouns and adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10456,
+      "word": "-οις",
+      "pos": "suffix",
+      "pointer": "/senses/1",
+      "glosses": [
+        "Masculine dative plural of first- and second-declension adjectives"
+      ],
+      "targets": [
+        "first- and second-declension adjectives"
+      ],
+      "assessment": "grammatical_ending_description",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 10515,
+      "word": "σφέτερος",
+      "pos": "adj",
+      "pointer": "/senses/2",
+      "glosses": [
+        "sometimes possessive reflexive of other persons: first-person singular and plural, second-person singular and plural, third-person singular"
+      ],
+      "targets": [
+        "other persons"
+      ],
+      "assessment": "ordinary_definition_misparsed_as_form_of",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    },
+    {
+      "slice_line": 19074,
+      "word": "βόστρυχος",
+      "pos": "noun",
+      "pointer": "/senses/4",
+      "glosses": [
+        "male of the glowworm"
+      ],
+      "targets": [
+        "the glowworm"
+      ],
+      "assessment": "ordinary_definition_misparsed_as_form_of",
+      "disposition": "Retain the definition; do not interpret these targets as same-language lexical inflection links."
+    }
+  ]
+}

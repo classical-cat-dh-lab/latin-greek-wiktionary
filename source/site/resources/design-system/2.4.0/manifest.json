@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "name": "Classical Cat Shared Design System",
+  "version": "2.4.0",
+  "source_sha256": {
+    "SPEC.md": "536305cf9651b0a2ff60e9e869cbe52ff588b5b799f0a79c4a20d96c0234dbb8",
+    "tokens.json": "abd3f8a73446d9f8b6e0591f2630ffc42a1399f6873c2daefb516352b4acf0e0",
+    "build.py": "b0db93a47a97254314bc82d7e7d8dbadb21a1576c3ee45c3fe7363cd1b8686e1",
+    "font_audit.py": "6d6134f75d9a561e62fc0147bb0bf57275ca99aaa5ea9a2c54653e2e7db9728e",
+    "verify.py": "f5adc250a697ee93792f3de233923562ec92e0c91493e3b6ca0a17242c9864d7",
+    "release.py": "4dfc57dba29904ab1fdcba38294290738ca75ac98c70eb1785042edd8c6348b1",
+    "web/editorial.css": "19028267ed1bb7a70d20df2ea557542fdb78df040529e090da8ce7762ddf168c"
+  },
+  "files": [
+    {
+      "path": "dist/fonts.css",
+      "sha256": "0a219797ff53cca700daf5d71e1fdd821bbadee95b3eaf95de2e151825c3180c",
+      "bytes": 5196
+    },
+    {
+      "path": "dist/profiles.css",
+      "sha256": "247ac76c05b86849e6ee8fbc9a57bc345174b04004e4da857a57029c7b001eb4",
+      "bytes": 1113
+    },
+    {
+      "path": "dist/tokens.css",
+      "sha256": "ce0f2589113a13347a501da095d487188e31305ddf9815426476cc1d7766e7a9",
+      "bytes": 4982
+    },
+    {
+      "path": "dist/tokens.typ",
+      "sha256": "baf5d267f009e39787880e2cebe00b4ee8da056015a33425f65fd462682b6675",
+      "bytes": 5226
+    },
+    {
+      "path": "fonts/README.md",
+      "sha256": "f3309d5a96c9fe14f5ba2a774f88d03e4ba3d208ebb9d07b8644f84c93de2add",
+      "bytes": 2780
+    },
+    {
+      "path": "fonts/licenses/OFL-Cardo.txt",
+      "sha256": "cd4b1bd39d1992e5a2f7ae4f7a37bd8e2eb3a223fe4187d936b0db5d49e6c006",
+      "bytes": 4371
+    },
+    {
+      "path": "fonts/licenses/OFL-Cinzel.txt",
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83",
+      "bytes": 4383
+    },
+    {
+      "path": "fonts/licenses/OFL-GFSPorson.txt",
+      "sha256": "739703f29a36dae89244d6ad04543e653af1ba4b513655799bbaf691599793b4",
+      "bytes": 4646
+    },
+    {
+      "path": "fonts/licenses/OFL-GentiumPlus.txt",
+      "sha256": "c309a440be606e283ccacc746662d714b9c5b5a7a0a10dd2514b90206b55ddfe",
+      "bytes": 4507
+    },
+    {
+      "path": "fonts/licenses/OFL-Inter.txt",
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39",
+      "bytes": 4376
+    },
+    {
+      "path": "fonts/licenses/OFL-Libertinus.txt",
+      "sha256": "9aeecc8107c489ec1ec0068b0313e531a760edf3493705b32ab8ab8215a8794e",
+      "bytes": 4426
+    },
+    {
+      "path": "fonts/licenses/OFL-NewAthenaUnicode.pdf",
+      "sha256": "9710da611fee9fa51c17db1b2b2c09517aad433f906321037ea3c5973c0f0281",
+      "bytes": 36902
+    },
+    {
+      "path": "fonts/licenses/OFL-SourceHanSerif.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "bytes": 4301
+    },
+    {
+      "path": "fonts/manifest.json",
+      "sha256": "7b79c8dcee8b1baca50e945980877e7fcb9acb9a28d7c3b1a0700bc743b63915",
+      "bytes": 35089
+    },
+    {
+      "path": "fonts/print/Cardo-Bold.ttf",
+      "sha256": "828fc36631be2515ae85615992c80094784919200e96bdf6d5bf25e0404afa59",
+      "bytes": 340804
+    },
+    {
+      "path": "fonts/print/Cardo-Italic.ttf",
+      "sha256": "78c34cde2c822ebb548312ef008d22ca52ea1ac1f7d98b4386ad26f5039947f6",
+      "bytes": 254968
+    },
+    {
+      "path": "fonts/print/Cardo-Regular.ttf",
+      "sha256": "618b2a4db94db3f59eedaa12b7bd8cea41698d4bb7e8cbc9a3dbee749dfd2cfc",
+      "bytes": 391336
+    },
+    {
+      "path": "fonts/print/Cinzel-Bold.ttf",
+      "sha256": "0c23ec565db45c5508ee95889c60ad87debd167ca07167a43a5d68572b4e2eac",
+      "bytes": 68768
+    },
+    {
+      "path": "fonts/print/Cinzel-Regular.ttf",
+      "sha256": "af0031129f27dc752e8629a80b793d27abea94027faa27cc660c3fc33f607a1f",
+      "bytes": 66996
+    },
+    {
+      "path": "fonts/print/GFSPorson.otf",
+      "sha256": "94883e6d8fbb7c5346c9ca2b5125551edeebb2c8a459afaab7ada03fb05d7d1d",
+      "bytes": 30104
+    },
+    {
+      "path": "fonts/print/GentiumPlus-Bold.ttf",
+      "sha256": "15e0237e9b0497f7d6749d5d2af6438075d59fbf5f15f7d6439ca88b3d797efd",
+      "bytes": 800924
+    },
+    {
+      "path": "fonts/print/GentiumPlus-BoldItalic.ttf",
+      "sha256": "65a3accbf29d4a8c5789551b43de117bd925c41a827991b5c57703af9437feea",
+      "bytes": 866728
+    },
+    {
+      "path": "fonts/print/GentiumPlus-Italic.ttf",
+      "sha256": "61136c37ab9e73615b6595a4535f5e603b2eca99697544c64fcfb7ccfb4415f8",
+      "bytes": 848992
+    },
+    {
+      "path": "fonts/print/GentiumPlus-Regular.ttf",
+      "sha256": "59a3b0e4716d61c0cd23b7f72ecd437379c6c6027b825fed4601408374435386",
+      "bytes": 798840
+    },
+    {
+      "path": "fonts/print/Inter-Bold.ttf",
+      "sha256": "288316099b1e0a47a4716d159098005eef7c0066921f34e3200393dbdb01947f",
+      "bytes": 420428
+    },
+    {
+      "path": "fonts/print/Inter-BoldItalic.ttf",
+      "sha256": "948405a16cdc62701da5f4005ed068ca5f4d27061d98f7974ccfc37831d9581d",
+      "bytes": 425296
+    },
+    {
+      "path": "fonts/print/Inter-Italic.ttf",
+      "sha256": "bbc051dd204b5019a1aa0bc0ae2aa8a05ab13e7a3f979fa357631dc7feb6833a",
+      "bytes": 417388
+    },
+    {
+      "path": "fonts/print/Inter-Regular.ttf",
+      "sha256": "40d692fce188e4471e2b3cba937be967878f631ad3ebbbdcd587687c7ebe0c82",
+      "bytes": 411640
+    },
+    {
+      "path": "fonts/print/LibertinusSerif-Bold.ttf",
+      "sha256": "8c0eeb3d455276f984ef3960cb02c8467ac8ee1501bd971506a5fe79012f45d5",
+      "bytes": 451520
+    },
+    {
+      "path": "fonts/print/LibertinusSerif-BoldItalic.ttf",
+      "sha256": "0db7bb583552ce33d5e713e7c8fb448f85cc7fb4fef864940c6547c3fa7e49b3",
+      "bytes": 441032
+    },
+    {
+      "path": "fonts/print/LibertinusSerif-Italic.ttf",
+      "sha256": "7a6a96cea9744daa86110df4ee87b702a01473ce2b4b4f91bf126ab140769940",
+      "bytes": 542140
+    },
+    {
+      "path": "fonts/print/LibertinusSerif-Regular.ttf",
+      "sha256": "cf4d09a551e0813a9c73e373d224dfc9bbb46b8193d3c2f063b5d88c9cc2f17a",
+      "bytes": 498436
+    },
+    {
+      "path": "fonts/print/NewAthenaUnicode-Bold.ttf",
+      "sha256": "a93b14b7414d3ec6a688d7e8614e2d5a3894e6e5e6ff3de26a991e017e6cfbcd",
+      "bytes": 998460
+    },
+    {
+      "path": "fonts/print/NewAthenaUnicode-BoldItalic.ttf",
+      "sha256": "f5de6b33acf343b46d6bd85eb72764c3460a64f0f222abf289548761a6d0be97",
+      "bytes": 814196
+    },
+    {
+      "path": "fonts/print/NewAthenaUnicode-Italic.ttf",
+      "sha256": "e2f940b97a916acfe95724e21c617e599597cc351f8bdca22c2c1f43c95118c3",
+      "bytes": 753708
+    },
+    {
+      "path": "fonts/print/NewAthenaUnicode-Regular.ttf",
+      "sha256": "b19441a8b9eed6b848ec29f474f44c9c240a38a24ed0d9c57333db95c2f6fbfa",
+      "bytes": 931180
+    },
+    {
+      "path": "fonts/print/SourceHanSerifSC-Bold.otf",
+      "sha256": "4564e8fb84d572e0b8b4e2980f3e23efc0c9956e64c84affce715a6de77cee27",
+      "bytes": 24683616
+    },
+    {
+      "path": "fonts/print/SourceHanSerifSC-Regular.otf",
+      "sha256": "35bcea18f39ee4c391ef7fb3882464e91d03d5266bcd04046022009fe15b4a1b",
+      "bytes": 23613536
+    },
+    {
+      "path": "fonts/print/SourceHanSerifSC-SemiBold.otf",
+      "sha256": "be23120f676445e75fa0582c484f397e984eef7c52de5baaeef6b42967c42c21",
+      "bytes": 23877344
+    },
+    {
+      "path": "fonts/web/Cardo-Bold.woff2",
+      "sha256": "9bebb1f354f8883fb7bbd9cb0721b2f10cb7efea7b54c713d5affe5aaa71df64",
+      "bytes": 132388
+    },
+    {
+      "path": "fonts/web/Cardo-Italic.woff2",
+      "sha256": "14766d25e7bdcff6269b77272f58ff62d9b5b85b2203b2d647e85aa4f367568c",
+      "bytes": 105096
+    },
+    {
+      "path": "fonts/web/Cardo-Regular.woff2",
+      "sha256": "cbd5a003e9fc63804f4efde675bc29208bb379baba253bb7177d762395d8979c",
+      "bytes": 145980
+    },
+    {
+      "path": "fonts/web/Cinzel-Bold.woff2",
+      "sha256": "c6c43903f478993ef9f6b5777733beafef8a6c2a34d8e34e173f8a9a302bb7ef",
+      "bytes": 26736
+    },
+    {
+      "path": "fonts/web/Cinzel-Regular.woff2",
+      "sha256": "405f4dd7abd0f2d7fba739fdf084713596f75a77f2f6ef10a6d5d11bbc09bb97",
+      "bytes": 24824
+    },
+    {
+      "path": "fonts/web/GentiumPlus-Bold.woff2",
+      "sha256": "0f700a229dde8db7be4663d25d4c44e531186d71fd37895b8cd657cd258a8294",
+      "bytes": 302848
+    },
+    {
+      "path": "fonts/web/GentiumPlus-BoldItalic.woff2",
+      "sha256": "035b4ba5185f39dcfbd44dd21ad9a895a7a23843b157fb713158688f86c9dc0d",
+      "bytes": 332140
+    },
+    {
+      "path": "fonts/web/GentiumPlus-Italic.woff2",
+      "sha256": "92bca499e5453c2caada4fda6b33f444361cf00afb6eb96978e220d87459aa22",
+      "bytes": 307796
+    },
+    {
+      "path": "fonts/web/GentiumPlus-Regular.woff2",
+      "sha256": "8b7eb21f7cc17d6370cee78de7fcad9ecf54ba0e890b80d685e7ef81c792c218",
+      "bytes": 281528
+    },
+    {
+      "path": "fonts/web/Inter-Bold.woff2",
+      "sha256": "f9f440c80266f3e59e7d2a85a5e2b0dab469677607aed37690f619d6a794fa12",
+      "bytes": 144472
+    },
+    {
+      "path": "fonts/web/Inter-BoldItalic.woff2",
+      "sha256": "9d4a0f2f29937c5aea72c0dc2495cc5db0160d2264cc748f6458c80fac114ff4",
+      "bytes": 151436
+    },
+    {
+      "path": "fonts/web/Inter-Italic.woff2",
+      "sha256": "03112a963723d260aeb3067d48683c3294396dfbbd7106d828cad3a5bbbf6bad",
+      "bytes": 147132
+    },
+    {
+      "path": "fonts/web/Inter-Regular.woff2",
+      "sha256": "aa8013e47bda2561f68ef36c31bfb2543d9c404b2b0eab7bb20fa8908f553005",
+      "bytes": 140628
+    },
+    {
+      "path": "fonts/web/NewAthenaUnicode-Bold.woff2",
+      "sha256": "aebbf4903299fafbf61c2652d827675e299c12a3d78ef834f9d5e22be3abd3c8",
+      "bytes": 227000
+    },
+    {
+      "path": "fonts/web/NewAthenaUnicode-BoldItalic.woff2",
+      "sha256": "8971dbaff4f7fe7bbe1959bd7f034cd4c6a143a7cc7781146c53f9948e47820e",
+      "bytes": 208724
+    },
+    {
+      "path": "fonts/web/NewAthenaUnicode-Italic.woff2",
+      "sha256": "99867663576607e9f37f06934934f367c847656ad9619729302f47bc66753724",
+      "bytes": 173524
+    },
+    {
+      "path": "fonts/web/NewAthenaUnicode-Regular.woff2",
+      "sha256": "76166e32dc1b7db346aaf2ac69db4ebe1b187640ae8cb27c45bf1c5ba2d912f2",
+      "bytes": 179224
+    },
+    {
+      "path": "tokens.json",
+      "sha256": "abd3f8a73446d9f8b6e0591f2630ffc42a1399f6873c2daefb516352b4acf0e0",
+      "bytes": 10763
+    },
+    {
+      "path": "verify.py",
+      "sha256": "f5adc250a697ee93792f3de233923562ec92e0c91493e3b6ca0a17242c9864d7",
+      "bytes": 2216
+    },
+    {
+      "path": "web/editorial.css",
+      "sha256": "19028267ed1bb7a70d20df2ea557542fdb78df040529e090da8ce7762ddf168c",
+      "bytes": 3443
+    }
+  ]
+}

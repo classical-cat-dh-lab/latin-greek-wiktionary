@@ -1,0 +1,434 @@
+{
+  "package": "66a15aed906a7d120b2d",
+  "origin": "http://127.0.0.1:61545/wiktionary/",
+  "date": "2026-09-30T08:34:00.654Z",
+  "browsers": [
+    {
+      "name": "chrome",
+      "version": "154.0.8037.92",
+      "checks": [
+        {
+          "name": "light default and persisted manual night theme",
+          "pass": true
+        },
+        {
+          "name": "Latin participle routes to verb and retains lexical noun",
+          "pass": true
+        },
+        {
+          "name": "selected token contrast in both themes",
+          "pass": true
+        },
+        {
+          "name": "reviewed source gaps and repaired inflection ownership",
+          "pass": true
+        },
+        {
+          "name": "Greek homographs and uncertain meaning",
+          "pass": true
+        },
+        {
+          "name": "paragraph offsets, one-word selection and clear races",
+          "pass": true
+        },
+        {
+          "name": "unresolved form visibly marked",
+          "pass": true
+        },
+        {
+          "name": "abbreviations, sentence punctuation, quotes and source soft hyphens",
+          "pass": true
+        },
+        {
+          "name": "internal navigation and back",
+          "pass": true
+        },
+        {
+          "name": "desktop/mobile layout and no source-injected markup",
+          "pass": true
+        },
+        {
+          "name": "query timing sample with a fresh worker and warm repetition",
+          "pass": true
+        },
+        {
+          "name": "quota refusal is incomplete and recoverable",
+          "pass": true
+        },
+        {
+          "name": "corrupt download is rejected",
+          "pass": true
+        },
+        {
+          "name": "cancel partial installation and resume",
+          "pass": true
+        },
+        {
+          "name": "complete installation and measured storage",
+          "pass": true
+        },
+        {
+          "name": "missing saved file detected at restart and restored",
+          "pass": true
+        },
+        {
+          "name": "cold browser-process restart with server unavailable",
+          "pass": true
+        }
+      ],
+      "storageAfterShell": {
+        "quota": 10741766908,
+        "usage": 4348668,
+        "usageDetails": {
+          "caches": 4344576,
+          "indexedDB": 1410,
+          "serviceWorkerRegistrations": 2682
+        }
+      },
+      "lightSelectionContrast": 9.225663676562187,
+      "darkSelectionContrast": 8.543877410885178,
+      "peakBrowserProcessRSS": 2589851648,
+      "queryTimings": [
+        {
+          "pass": "first-worker-pass",
+          "word": "amātīs",
+          "milliseconds": 68
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "ἔργον",
+          "milliseconds": 130
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "λύω",
+          "milliseconds": 94
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "puellarum",
+          "milliseconds": 62
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "i.e.",
+          "milliseconds": 42
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "JUL",
+          "milliseconds": 19
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "ᾧ",
+          "milliseconds": 216
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "φιλοσοφία",
+          "milliseconds": 54
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "rex",
+          "milliseconds": 56
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "sum",
+          "milliseconds": 48
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "amātīs",
+          "milliseconds": 55
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "ἔργον",
+          "milliseconds": 132
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "λύω",
+          "milliseconds": 93
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "puellarum",
+          "milliseconds": 73
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "i.e.",
+          "milliseconds": 42
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "JUL",
+          "milliseconds": 20
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "ᾧ",
+          "milliseconds": 223
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "φιλοσοφία",
+          "milliseconds": 58
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "rex",
+          "milliseconds": 53
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "sum",
+          "milliseconds": 49
+        }
+      ],
+      "workerMetrics": {
+        "cachedExpandedBytes": 23284053,
+        "peakCachedExpandedBytes": 24929293
+      },
+      "storageBefore": {
+        "quota": 11164088539,
+        "usage": 426670299,
+        "usageDetails": {
+          "caches": 426663680,
+          "indexedDB": 3937,
+          "serviceWorkerRegistrations": 2682
+        }
+      },
+      "installSeconds": 9.412,
+      "peakOriginUsageDuringCompletion": 486916358,
+      "storageAfter": {
+        "quota": 11224335172,
+        "usage": 486916932,
+        "usageDetails": {
+          "caches": 486909184,
+          "indexedDB": 5066,
+          "serviceWorkerRegistrations": 2682
+        }
+      }
+    },
+    {
+      "name": "edge",
+      "version": "154.0.4258.48",
+      "checks": [
+        {
+          "name": "light default and persisted manual night theme",
+          "pass": true
+        },
+        {
+          "name": "Latin participle routes to verb and retains lexical noun",
+          "pass": true
+        },
+        {
+          "name": "selected token contrast in both themes",
+          "pass": true
+        },
+        {
+          "name": "reviewed source gaps and repaired inflection ownership",
+          "pass": true
+        },
+        {
+          "name": "Greek homographs and uncertain meaning",
+          "pass": true
+        },
+        {
+          "name": "paragraph offsets, one-word selection and clear races",
+          "pass": true
+        },
+        {
+          "name": "unresolved form visibly marked",
+          "pass": true
+        },
+        {
+          "name": "abbreviations, sentence punctuation, quotes and source soft hyphens",
+          "pass": true
+        },
+        {
+          "name": "internal navigation and back",
+          "pass": true
+        },
+        {
+          "name": "desktop/mobile layout and no source-injected markup",
+          "pass": true
+        },
+        {
+          "name": "query timing sample with a fresh worker and warm repetition",
+          "pass": true
+        },
+        {
+          "name": "quota refusal is incomplete and recoverable",
+          "pass": true
+        },
+        {
+          "name": "corrupt download is rejected",
+          "pass": true
+        },
+        {
+          "name": "cancel partial installation and resume",
+          "pass": true
+        },
+        {
+          "name": "complete installation and measured storage",
+          "pass": true
+        },
+        {
+          "name": "missing saved file detected at restart and restored",
+          "pass": true
+        },
+        {
+          "name": "cold browser-process restart with server unavailable",
+          "pass": true
+        }
+      ],
+      "storageAfterShell": {
+        "quota": 10741766904,
+        "usage": 4348664,
+        "usageDetails": {
+          "caches": 4344576,
+          "indexedDB": 1406,
+          "serviceWorkerRegistrations": 2682
+        }
+      },
+      "lightSelectionContrast": 9.225663676562187,
+      "darkSelectionContrast": 8.543877410885178,
+      "peakBrowserProcessRSS": 2648391680,
+      "queryTimings": [
+        {
+          "pass": "first-worker-pass",
+          "word": "amātīs",
+          "milliseconds": 71
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "ἔργον",
+          "milliseconds": 142
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "λύω",
+          "milliseconds": 98
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "puellarum",
+          "milliseconds": 70
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "i.e.",
+          "milliseconds": 45
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "JUL",
+          "milliseconds": 20
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "ᾧ",
+          "milliseconds": 224
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "φιλοσοφία",
+          "milliseconds": 57
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "rex",
+          "milliseconds": 60
+        },
+        {
+          "pass": "first-worker-pass",
+          "word": "sum",
+          "milliseconds": 48
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "amātīs",
+          "milliseconds": 60
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "ἔργον",
+          "milliseconds": 141
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "λύω",
+          "milliseconds": 98
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "puellarum",
+          "milliseconds": 71
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "i.e.",
+          "milliseconds": 45
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "JUL",
+          "milliseconds": 20
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "ᾧ",
+          "milliseconds": 222
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "φιλοσοφία",
+          "milliseconds": 60
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "rex",
+          "milliseconds": 51
+        },
+        {
+          "pass": "warm-repeat",
+          "word": "sum",
+          "milliseconds": 51
+        }
+      ],
+      "workerMetrics": {
+        "cachedExpandedBytes": 23284053,
+        "peakCachedExpandedBytes": 24929293
+      },
+      "storageBefore": {
+        "quota": 11164047315,
+        "usage": 426629075,
+        "usageDetails": {
+          "caches": 426622464,
+          "indexedDB": 3929,
+          "serviceWorkerRegistrations": 2682
+        }
+      },
+      "installSeconds": 8.647,
+      "peakOriginUsageDuringCompletion": 484520958,
+      "storageAfter": {
+        "quota": 11224335164,
+        "usage": 486916924,
+        "usageDetails": {
+          "caches": 486909184,
+          "indexedDB": 5058,
+          "serviceWorkerRegistrations": 2682
+        }
+      }
+    }
+  ],
+  "requests": 11953,
+  "transferredBytes": 1050991507,
+  "pass": true
+}

@@ -1,0 +1,83 @@
+{
+  "package": "66a15aed906a7d120b2d",
+  "browser": "Firefox",
+  "origin": "http://127.0.0.1:61625/wiktionary/",
+  "checks": [
+    {
+      "name": "Latin participle and Greek readings",
+      "pass_": true
+    },
+    {
+      "name": "source repairs and all six punctuation regressions",
+      "pass_": true
+    },
+    {
+      "name": "passage text, escaping and clear race",
+      "pass_": true
+    },
+    {
+      "name": "contrast and persisted night mode",
+      "pass_": true
+    },
+    {
+      "name": "quota refusal",
+      "pass_": true
+    },
+    {
+      "name": "corrupt file rejected",
+      "pass_": true
+    },
+    {
+      "name": "cancel and resumable partial cache",
+      "pass_": true
+    },
+    {
+      "name": "complete offline installation",
+      "pass_": true
+    },
+    {
+      "name": "missing file detection and restoration",
+      "pass_": true
+    },
+    {
+      "name": "new Firefox process with server unavailable and cold internal navigation",
+      "pass_": true
+    }
+  ],
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "157.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20260924084938",
+    "moz:geckodriverVersion": "0.37.1",
+    "moz:headless": true,
+    "moz:platformVersion": "27.0.0",
+    "moz:processID": 40718,
+    "moz:shutdownTimeout": 60000,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "mac",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:157.0) Gecko/20100101 Firefox/157.0"
+  },
+  "selectionContrast": {
+    "light": 9.225663676562188,
+    "dark": 8.543877410885178
+  },
+  "installSeconds": 4.81,
+  "storage": {
+    "quota": 10737418240,
+    "usage": 487417096
+  },
+  "pass": true
+}

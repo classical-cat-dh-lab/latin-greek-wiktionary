@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F6F5F1"><meta name="description" content="A local Latin and Ancient Greek dictionary from Wiktionary.">
+<title>Latin &amp; Ancient Greek dictionary · 0.1 beta</title>
+<link rel="manifest" href="app.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="resources/design-system/2.4.0/dist/tokens.css">
+<link rel="stylesheet" href="resources/design-system/2.4.0/dist/fonts.css">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="night-theme.css"><link rel="stylesheet" href="reader.css">
+<script type="module" src="app.mjs"></script>
+</head>
+<body><main id="top">
+<header><div class="header-row"><p class="eyebrow">Classical Cat DH Lab</p><div class="header-tools">
+<button type="button" id="offline-update" hidden>Apply available update</button><button type="button" id="offline-save" disabled>Save offline</button><button type="button" id="theme-toggle" aria-pressed="false">Night mode</button>
+</div></div><div class="title-row"><h1>Latin &amp; Ancient Greek</h1><span class="version-badge">0.1 beta</span></div>
+<p class="tagline">A dictionary derived from Wiktionary™. Read a passage, explore its words, and follow the connections—even offline.</p></header>
+<section id="offline" hidden aria-label="Offline dictionary"><p>Complete dictionary: <span id="package-size">…</span>. Keep this tab open while saving.</p>
+<p id="offline-status" role="status">The complete dictionary has not been saved.</p><progress id="offline-progress" value="0" max="1" aria-label="Dictionary saving progress"></progress><button id="offline-cancel" hidden>Cancel saving</button></section>
+<form id="analysis-form"><label for="input">Latin or Ancient Greek word or passage</label>
+<textarea id="input" rows="3" placeholder="Paste a passage, then press Enter / Return." spellcheck="false" autocapitalize="off" aria-describedby="input-help"></textarea>
+<p id="input-help">Enter / Return to look up · Shift + Enter / Return for a new line.</p>
+<div class="controls"><label for="mode">Language</label><select id="mode"><option value="auto">Detect from each word</option><option value="la">Latin</option><option value="grc">Ancient Greek</option></select><button id="analyze" type="submit">Look up</button><button type="button" id="clear-input">Clear input</button></div>
+<div class="lookup-status"><span id="status" role="status">Loading dictionary…</span><span id="connection-status">On-device lookup</span></div>
+<details class="display-options"><summary>Lookup options</summary><label for="profile">Matching</label><select id="profile"><option value="tolerant">Ignore quantity, Greek accents and breathings</option><option value="reading">Ignore quantity; retain Greek accents and breathings</option><option value="exact">Exact spelling and case</option><option value="spelling">Also allow Latin i/j and u/v</option></select><p>Exact matches appear first. Iota subscript and diaeresis are always retained. Discretionary soft hyphens do not affect matching. Alternatives remain separate candidates.</p></details></form>
+<section id="results" hidden aria-labelledby="result-heading"><div class="reader-heading"><h2 id="result-heading">Read the text</h2><button id="back" type="button" hidden>Back to word</button></div>
+<p class="reader-guide">Select a word to read its meanings and grammatical forms.</p><div id="passage" lang="mul"></div>
+<details id="word-list"><summary>Word list</summary><div id="word-list-items"></div></details>
+<div id="reader-output" aria-live="polite" aria-busy="false"></div></section>
+<footer><nav><a href="#about">About &amp; sources</a> · <a href="#offline-help">Offline help</a> · <a href="#top">Back to top</a></nav>
+<p>Lookups run on your device. Your passage stays in this browser.</p>
+<details id="about"><summary>About, sources &amp; limitations</summary><p>An independent Classical Cat DH Lab edition, version 0.1.0-beta.1. English Wiktionary Latin and Ancient Greek content, captured through Kaikki on 20 September 2026 (declared dump: 2 September; extraction: 16 September), with documented corrections and supplementary page evidence captured through 30 September 2026. This source base is fixed; editorial revisions are published separately.</p>
+<p>Definitions, examples and other dictionary text are derived from <a href="https://en.wiktionary.org/">Wiktionary contributors</a> via <a href="https://kaikki.org/">Kaikki</a>, under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> where applicable. Separate quotation credits are retained. Individual entries link to their Wiktionary pages and histories.</p>
+<p>Edition and corrections © 2026 Classical Cat DH Lab, CC BY-SA 4.0. Original software © 2026 Classical Cat DH Lab, AGPL-3.0-only. <a href="https://github.com/classical-cat-dh-lab/latin-greek-wiktionary">Source code, data downloads, attribution and issue reporting</a>.</p>
+<p>Changes include table-context recovery, guarded relation and form repairs, normalization, entry grouping and local navigation. Missing source information and unresolved relations remain visible. This capture is not a complete historical vocabulary or a verified transcription of every Wiktionary channel.</p>
+<p>Wiktionary is a trademark of the Wikimedia Foundation. The name identifies the source of the dictionary content under its <a href="https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_Trademark_Policy#3.6_Refer_to_Wikimedia_sites_(nominative_use)">nominative-use policy</a>. This independent edition is not endorsed by or affiliated with the Wikimedia Foundation.</p>
+<p>The reader follows the Lab’s WORDS interface. Fonts are self-hosted under their included licenses. No images, recordings or contents of external references are downloaded.</p></details>
+<details id="offline-help"><summary>Using the dictionary offline</summary><p>Choose Save offline and wait for “Ready offline”. Downloads can be cancelled and resumed. The browser may refuse persistent storage or later remove saved data; Verify offline copy checks and restores the package when connected. Saving needs free disk space beyond the download size.</p><p>On localhost, keep the local server available until saving completes. After that, reopen the same address in the same browser profile. A file opened directly from disk does not support the worker and offline cache.</p></details></footer>
+<noscript>This dictionary needs JavaScript for local lookup.</noscript>
+</main></body></html>

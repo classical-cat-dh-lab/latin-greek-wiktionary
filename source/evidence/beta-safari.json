@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "package": "66a15aed906a7d120b2d",
+  "browser": "Safari",
+  "version": "27.0.1",
+  "host": "macOS 27.0.1 (26A434)",
+  "method": "Native GUI observation; fresh loopback origin and dedicated tabs; no Remote Automation setting change",
+  "checks": [
+    "Fresh shell loads without a spurious update button",
+    "Supplemented ἀνακόπτω definitions and fixed revision link",
+    "Supplemented συνέχω has nine source definitions",
+    "amātīs routes to amō and retains amātus/amata lexical nouns",
+    "chaeta explicitly reports source no definition",
+    "Full 459.2 MiB save reaches Ready offline",
+    "New tab reopens with loopback server stopped",
+    "Previously cold φιλοσοφία query works offline",
+    "Internal φῐλοσοφῐ́ᾱς navigation works offline"
+  ],
+  "limits": [
+    "This is tab reopening, not a whole Safari process restart.",
+    "macOS 15 and Intel hardware were not directly tested."
+  ]
+}

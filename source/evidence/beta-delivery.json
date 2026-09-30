@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "package": "66a15aed906a7d120b2d",
+  "counts": {
+    "verified_files": 5844,
+    "retained_content_values": 55744514,
+    "entries": 960519,
+    "semantic_senses": 1099358,
+    "source_reviews": 209,
+    "senses": 1099358,
+    "forms": 5501961,
+    "tables": 99042,
+    "ownership_paths": 996430,
+    "link_occurrences": 3809203,
+    "relations": 1215740
+  },
+  "bytes": 481538396,
+  "expandedBytes": 5788874024,
+  "largestExpandedShard": 18935424,
+  "seconds": 248.77,
+  "qualification": {
+    "full_record_check_package": "4c6dde73b2a2a05c88d3",
+    "final_manifest_bytes_and_hashes_checked": true,
+    "data_files_identical": true,
+    "changed_files": [
+      "offline.mjs",
+      "sw.js"
+    ],
+    "reason": "Hide update action during first installation; data and query implementation unchanged."
+  }
+}

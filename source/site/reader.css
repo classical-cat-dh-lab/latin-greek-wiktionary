@@ -1,0 +1,27 @@
+#passage {white-space:pre-wrap;font:1.4rem/2.1 var(--ds-font-serif-classical);margin:1rem 0;overflow-wrap:anywhere;}
+.passage-word {font:inherit;line-height:inherit;padding:0 .12rem;border:0;border-bottom:2px solid transparent;background:transparent;min-height:2.75rem;white-space:normal;overflow-wrap:anywhere;}
+.passage-word:hover,.passage-word[aria-pressed="true"] {background:var(--ds-color-surface-raised);color:var(--ds-color-text-primary);border-bottom-color:var(--ds-color-link);}
+#word-list-items {display:flex;gap:.35rem;flex-wrap:wrap;}
+.word-chip {font-family:var(--ds-font-serif-classical);}
+.entry-title {font-family:var(--ds-font-serif-classical);}
+.entry-meta,.source-note,.grammar,.link-status {font:var(--ds-text-small)/1.6 var(--ds-font-sans-ui);}
+.entry-meta {color:var(--ds-color-text-muted);margin:.25rem 0;}
+.grammar {border-left:2px solid var(--ds-color-border);padding-left:.8rem;margin:.5rem 0;}
+.grammar ul {margin:.2rem 0;padding-left:1.2rem;}
+.sense {margin:.6rem 0;}
+.sense p {margin:.25rem 0;}
+.sense .labels {font:var(--ds-text-small)/1.5 var(--ds-font-sans-ui);}
+.entry-content {font-family:var(--ds-font-serif-editorial);font-size:var(--ds-text-body);}
+.entry-content details {font-family:inherit;font-size:inherit;}
+.entry-content dt {font-family:var(--ds-font-sans-ui);font-size:var(--ds-text-small);color:var(--ds-color-text-muted);}
+.entry-content dl {display:block;}
+.entry-content dd {margin:0 0 .75rem .9rem;}
+.entry-content ul {padding-left:1.4rem;}
+.entry-content li {margin:.4rem 0;}
+.entry-content a,.entry-content button {overflow-wrap:anywhere;}
+.internal-link {display:inline;font:inherit;color:var(--ds-color-link);text-decoration:underline;background:transparent;border:0;padding:.1rem .3rem;min-height:2.75rem;text-align:left;}
+.source-note {margin-top:1rem;border-top:1px solid var(--ds-color-border);padding-top:.7rem;}
+.error {color:var(--ds-color-error);}
+.notice {font:var(--ds-text-small)/1.6 var(--ds-font-sans-ui);}
+.table-scroll td:first-child {font-family:var(--ds-font-serif-classical);font-size:1.1rem;}
+@media(max-width:40rem){.title-row h1{font-size:2rem;}#passage{font-size:1.25rem;}.reader-entry{padding:.75rem;}#profile{width:100%;font-size:.9rem;}}

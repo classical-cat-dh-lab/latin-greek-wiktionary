@@ -1,0 +1,1146 @@
+{
+  "schema": "formlex-checkpoint/1",
+  "status": "passed",
+  "scope": "complete pinned-capture projection, not global Wiktionary completeness or scholarly certification",
+  "database_bytes": 4083945472,
+  "database_sha256": "147d1ba7c4acf3be29941515c19473e599874ac8e4dfb0267038951d9f8401ce",
+  "verifier_sha256": "1a9db072e7fb863bbbb741b981c61bd9311de8befb63f10a7ccc1de4804e4292",
+  "source_accounting": {
+    "la:source-1": {
+      "raw_payloads_sha256": "db22ee02e641d24c07121a799efab4d1bf3de3a58133beacfca740cfae0c9667",
+      "bytes": 1035811128,
+      "counts": {
+        "entries": 892320,
+        "senses": 1008871,
+        "forms": 2926947,
+        "relations": 1085285,
+        "links": 2691665
+      },
+      "status": "passed"
+    },
+    "grc:source-2": {
+      "raw_payloads_sha256": "f309d7e667f40879c43f057c92ada06e1b202d1e9694da6ec3eee22638cd8999",
+      "bytes": 386963700,
+      "counts": {
+        "entries": 68196,
+        "senses": 90475,
+        "forms": 1611458,
+        "relations": 130454,
+        "links": 1116606
+      },
+      "status": "passed"
+    },
+    "grc:source-3": {
+      "raw_payloads_sha256": "518c43b5703ea31a8f4a2806ef7e2f4d5803274f6be0e3c3e80d9bc76fb2f825",
+      "bytes": 228854,
+      "counts": {
+        "entries": 3,
+        "senses": 12,
+        "forms": 686,
+        "relations": 1,
+        "links": 932
+      },
+      "status": "passed"
+    }
+  },
+  "reviewed_projections": {
+    "entries": 209,
+    "forms": 181,
+    "senses": 76,
+    "owners": 7,
+    "status": "passed"
+  },
+  "beta_reviews": {
+    "dispositions": {
+      "unresolved_source_assertion": 341,
+      "extraction_explanation_tail": 38,
+      "source_page_missing": 283,
+      "source_language_section_absent": 105,
+      "qualified_source_target": 10,
+      "source_self_reference": 12,
+      "source_section_present_not_in_capture": 6
+    },
+    "supplemented_entries": 3,
+    "status": "passed"
+  },
+  "metrics": {
+    "entries_by_role": [
+      [
+        "grc",
+        "form_only",
+        44938
+      ],
+      [
+        "grc",
+        "incomplete",
+        6
+      ],
+      [
+        "grc",
+        "lexical",
+        21313
+      ],
+      [
+        "grc",
+        "mixed",
+        97
+      ],
+      [
+        "grc",
+        "variant_only",
+        1845
+      ],
+      [
+        "la",
+        "form_only",
+        837827
+      ],
+      [
+        "la",
+        "incomplete",
+        48
+      ],
+      [
+        "la",
+        "lexical",
+        48344
+      ],
+      [
+        "la",
+        "mixed",
+        261
+      ],
+      [
+        "la",
+        "variant_only",
+        5840
+      ]
+    ],
+    "forms_by_role": [
+      [
+        "grc",
+        "absence",
+        4066
+      ],
+      [
+        "grc",
+        "affix",
+        11164
+      ],
+      [
+        "grc",
+        "article_wrapped_word",
+        1481
+      ],
+      [
+        "grc",
+        "epigraphic_abbreviation",
+        1
+      ],
+      [
+        "grc",
+        "labelled_word",
+        60
+      ],
+      [
+        "grc",
+        "metadata",
+        94598
+      ],
+      [
+        "grc",
+        "multiword_content",
+        30209
+      ],
+      [
+        "grc",
+        "parenthesized_content",
+        2
+      ],
+      [
+        "grc",
+        "periphrastic_formula",
+        2
+      ],
+      [
+        "grc",
+        "pronunciation",
+        4
+      ],
+      [
+        "grc",
+        "prose_metadata",
+        1730
+      ],
+      [
+        "grc",
+        "reconstruction",
+        17
+      ],
+      [
+        "grc",
+        "redirect_word",
+        2073
+      ],
+      [
+        "grc",
+        "reviewed_word",
+        31
+      ],
+      [
+        "grc",
+        "romanization",
+        68164
+      ],
+      [
+        "grc",
+        "romanization_recovered",
+        23072
+      ],
+      [
+        "grc",
+        "symbol_or_other",
+        57
+      ],
+      [
+        "grc",
+        "title_content",
+        705
+      ],
+      [
+        "grc",
+        "title_word",
+        67494
+      ],
+      [
+        "grc",
+        "word",
+        1377441
+      ],
+      [
+        "grc",
+        "word_notation",
+        45
+      ],
+      [
+        "la",
+        "absence",
+        132276
+      ],
+      [
+        "la",
+        "affix",
+        10505
+      ],
+      [
+        "la",
+        "foreign_text",
+        1
+      ],
+      [
+        "la",
+        "metadata",
+        122536
+      ],
+      [
+        "la",
+        "multiword_content",
+        42201
+      ],
+      [
+        "la",
+        "periphrastic_formula",
+        24685
+      ],
+      [
+        "la",
+        "pronunciation",
+        508
+      ],
+      [
+        "la",
+        "prose_metadata",
+        34
+      ],
+      [
+        "la",
+        "reconstruction",
+        123
+      ],
+      [
+        "la",
+        "redirect_word",
+        278
+      ],
+      [
+        "la",
+        "reviewed_word",
+        1
+      ],
+      [
+        "la",
+        "romanization",
+        5
+      ],
+      [
+        "la",
+        "symbol_or_other",
+        665
+      ],
+      [
+        "la",
+        "title_content",
+        4015
+      ],
+      [
+        "la",
+        "title_word",
+        888305
+      ],
+      [
+        "la",
+        "transliteration",
+        2
+      ],
+      [
+        "la",
+        "word",
+        2593405
+      ]
+    ],
+    "surfaces_by_language": {
+      "grc": 971050,
+      "la": 1827713
+    },
+    "relations": [
+      [
+        "grc",
+        "alt_of",
+        "resolved_candidates",
+        97
+      ],
+      [
+        "grc",
+        "alt_of",
+        "resolved_local_reading",
+        1
+      ],
+      [
+        "grc",
+        "alt_of",
+        "resolved_one",
+        1826
+      ],
+      [
+        "grc",
+        "alt_of",
+        "self_reference",
+        1
+      ],
+      [
+        "grc",
+        "alt_of",
+        "source_explanation",
+        5
+      ],
+      [
+        "grc",
+        "alt_of",
+        "unresolved",
+        19
+      ],
+      [
+        "grc",
+        "antonyms",
+        "resolved_candidates",
+        37
+      ],
+      [
+        "grc",
+        "antonyms",
+        "resolved_one",
+        389
+      ],
+      [
+        "grc",
+        "antonyms",
+        "unresolved",
+        62
+      ],
+      [
+        "grc",
+        "coordinate_terms",
+        "resolved_candidates",
+        1873
+      ],
+      [
+        "grc",
+        "coordinate_terms",
+        "resolved_local_reading",
+        3
+      ],
+      [
+        "grc",
+        "coordinate_terms",
+        "resolved_one",
+        13918
+      ],
+      [
+        "grc",
+        "coordinate_terms",
+        "unresolved",
+        3063
+      ],
+      [
+        "grc",
+        "derived",
+        "resolved_candidates",
+        649
+      ],
+      [
+        "grc",
+        "derived",
+        "resolved_local_reading",
+        305
+      ],
+      [
+        "grc",
+        "derived",
+        "resolved_one",
+        10705
+      ],
+      [
+        "grc",
+        "derived",
+        "self_reference",
+        3
+      ],
+      [
+        "grc",
+        "derived",
+        "unresolved",
+        30444
+      ],
+      [
+        "grc",
+        "form_of",
+        "resolved_candidates",
+        1300
+      ],
+      [
+        "grc",
+        "form_of",
+        "resolved_local_reading",
+        9
+      ],
+      [
+        "grc",
+        "form_of",
+        "resolved_one",
+        47397
+      ],
+      [
+        "grc",
+        "form_of",
+        "self_reference",
+        4
+      ],
+      [
+        "grc",
+        "form_of",
+        "source_explanation",
+        42
+      ],
+      [
+        "grc",
+        "form_of",
+        "unresolved",
+        149
+      ],
+      [
+        "grc",
+        "hypernyms",
+        "resolved_candidates",
+        2
+      ],
+      [
+        "grc",
+        "hypernyms",
+        "resolved_one",
+        9
+      ],
+      [
+        "grc",
+        "hypernyms",
+        "unresolved",
+        1
+      ],
+      [
+        "grc",
+        "hyponyms",
+        "resolved_candidates",
+        10
+      ],
+      [
+        "grc",
+        "hyponyms",
+        "resolved_one",
+        15
+      ],
+      [
+        "grc",
+        "hyponyms",
+        "unresolved",
+        14
+      ],
+      [
+        "grc",
+        "related",
+        "resolved_candidates",
+        907
+      ],
+      [
+        "grc",
+        "related",
+        "resolved_local_reading",
+        86
+      ],
+      [
+        "grc",
+        "related",
+        "resolved_one",
+        7048
+      ],
+      [
+        "grc",
+        "related",
+        "unresolved",
+        5439
+      ],
+      [
+        "grc",
+        "synonyms",
+        "resolved_candidates",
+        295
+      ],
+      [
+        "grc",
+        "synonyms",
+        "resolved_local_reading",
+        6
+      ],
+      [
+        "grc",
+        "synonyms",
+        "resolved_one",
+        3708
+      ],
+      [
+        "grc",
+        "synonyms",
+        "unresolved",
+        614
+      ],
+      [
+        "la",
+        "abbreviations",
+        "resolved_candidates",
+        4
+      ],
+      [
+        "la",
+        "abbreviations",
+        "resolved_one",
+        9
+      ],
+      [
+        "la",
+        "abbreviations",
+        "unresolved",
+        23
+      ],
+      [
+        "la",
+        "alt_of",
+        "explicit_nonlocal",
+        14
+      ],
+      [
+        "la",
+        "alt_of",
+        "resolved_candidates",
+        203
+      ],
+      [
+        "la",
+        "alt_of",
+        "resolved_one",
+        5644
+      ],
+      [
+        "la",
+        "alt_of",
+        "self_reference",
+        3
+      ],
+      [
+        "la",
+        "alt_of",
+        "source_explanation",
+        28
+      ],
+      [
+        "la",
+        "alt_of",
+        "unresolved",
+        179
+      ],
+      [
+        "la",
+        "antonyms",
+        "resolved_candidates",
+        1054
+      ],
+      [
+        "la",
+        "antonyms",
+        "resolved_one",
+        5552
+      ],
+      [
+        "la",
+        "antonyms",
+        "unresolved",
+        40
+      ],
+      [
+        "la",
+        "coordinate_terms",
+        "resolved_candidates",
+        599
+      ],
+      [
+        "la",
+        "coordinate_terms",
+        "resolved_local_reading",
+        26
+      ],
+      [
+        "la",
+        "coordinate_terms",
+        "resolved_one",
+        1671
+      ],
+      [
+        "la",
+        "coordinate_terms",
+        "unresolved",
+        1457
+      ],
+      [
+        "la",
+        "derived",
+        "resolved_candidates",
+        2444
+      ],
+      [
+        "la",
+        "derived",
+        "resolved_local_reading",
+        88
+      ],
+      [
+        "la",
+        "derived",
+        "resolved_one",
+        17024
+      ],
+      [
+        "la",
+        "derived",
+        "unresolved",
+        8769
+      ],
+      [
+        "la",
+        "form_of",
+        "explicit_nonlocal",
+        153
+      ],
+      [
+        "la",
+        "form_of",
+        "resolved_candidates",
+        22238
+      ],
+      [
+        "la",
+        "form_of",
+        "resolved_local_reading",
+        7
+      ],
+      [
+        "la",
+        "form_of",
+        "resolved_one",
+        907552
+      ],
+      [
+        "la",
+        "form_of",
+        "self_reference",
+        4
+      ],
+      [
+        "la",
+        "form_of",
+        "source_explanation",
+        15
+      ],
+      [
+        "la",
+        "form_of",
+        "unresolved",
+        382
+      ],
+      [
+        "la",
+        "holonyms",
+        "resolved_one",
+        24
+      ],
+      [
+        "la",
+        "holonyms",
+        "unresolved",
+        1
+      ],
+      [
+        "la",
+        "hypernyms",
+        "resolved_candidates",
+        14
+      ],
+      [
+        "la",
+        "hypernyms",
+        "resolved_one",
+        69
+      ],
+      [
+        "la",
+        "hypernyms",
+        "unresolved",
+        5
+      ],
+      [
+        "la",
+        "hyponyms",
+        "resolved_candidates",
+        16
+      ],
+      [
+        "la",
+        "hyponyms",
+        "resolved_one",
+        85
+      ],
+      [
+        "la",
+        "hyponyms",
+        "unresolved",
+        98
+      ],
+      [
+        "la",
+        "meronyms",
+        "resolved_one",
+        33
+      ],
+      [
+        "la",
+        "meronyms",
+        "unresolved",
+        57
+      ],
+      [
+        "la",
+        "proverbs",
+        "unresolved",
+        4
+      ],
+      [
+        "la",
+        "related",
+        "resolved_candidates",
+        7743
+      ],
+      [
+        "la",
+        "related",
+        "resolved_local_reading",
+        72
+      ],
+      [
+        "la",
+        "related",
+        "resolved_one",
+        42644
+      ],
+      [
+        "la",
+        "related",
+        "self_reference",
+        16
+      ],
+      [
+        "la",
+        "related",
+        "unresolved",
+        22073
+      ],
+      [
+        "la",
+        "synonyms",
+        "explicit_nonlocal",
+        19
+      ],
+      [
+        "la",
+        "synonyms",
+        "resolved_candidates",
+        5367
+      ],
+      [
+        "la",
+        "synonyms",
+        "resolved_local_reading",
+        26
+      ],
+      [
+        "la",
+        "synonyms",
+        "resolved_one",
+        30899
+      ],
+      [
+        "la",
+        "synonyms",
+        "unresolved",
+        838
+      ]
+    ],
+    "relation_target_edges": 1195011,
+    "links_by_state": {
+      "external": 35,
+      "local": 815673,
+      "local_form": 770470,
+      "local_page_anchor": 387,
+      "missing_local_target": 50009,
+      "other_language_or_anchor": 9612,
+      "reference_namespace": 292
+    },
+    "link_target_edges": 1676770,
+    "redirects_by_state": {
+      "included_page": 2939,
+      "outside_capture": 46609,
+      "reference_namespace": 3
+    },
+    "ownership_by_state": {
+      "candidate_paths": 66877,
+      "lexical_path": 928540,
+      "unresolved_form": 1013
+    },
+    "entries_by_ownership_state": {
+      "candidate_paths": 30966,
+      "lexical_path": 928540,
+      "unresolved_form": 1013
+    },
+    "missing_links_by_declared_language": {
+      "": 34825,
+      "grc": 6829,
+      "la": 8355
+    },
+    "applied_rules": {
+      "bounded_script_typo_repaired": 11,
+      "composite_owner_from_source_etymology": 4,
+      "cross_language_name_equivalence": 2,
+      "definition_from_source_revision": 2,
+      "definition_not_owner_assertion": 9,
+      "display_gloss_recovered": 12,
+      "explicit_movable_nu": 32,
+      "explicit_source_notation": 13,
+      "form_from_source_revision": 1,
+      "form_owner_from_source_revision": 1,
+      "grammatical_ending_description": 24,
+      "greek_article_wrapper": 1544,
+      "greek_table_tense": 902621,
+      "head_metadata_separated": 1714,
+      "infinitive_finite_tags_removed": 3599,
+      "leaked_romanization_separated": 23007,
+      "linked_target_split": 700,
+      "ordinary_definition_misparsed_as_form_of": 7,
+      "participle_owner_from_etymology": 6,
+      "reviewed_content_classification": 114,
+      "reviewed_surface_label_separated": 29,
+      "soft_hyphen_retrieval_only": 2,
+      "source_composite_owner_split": 14,
+      "source_definition_review": 54,
+      "source_table_features_recovered": 12,
+      "surface_label_separated": 21,
+      "table_prose_separated": 34,
+      "tense_from_unique_matching_source_sense": 1,
+      "tense_meaning_separated": 1318
+    },
+    "issues": {
+      "abbreviations_unresolved": 23,
+      "alt_of_self_reference": 4,
+      "alt_of_unresolved": 198,
+      "antonyms_unresolved": 102,
+      "coordinate_terms_unresolved": 4520,
+      "derived_self_reference": 3,
+      "derived_unresolved": 39213,
+      "form_of_self_reference": 8,
+      "form_of_unresolved": 531,
+      "holonyms_unresolved": 1,
+      "hypernyms_unresolved": 6,
+      "hyponyms_unresolved": 112,
+      "meronyms_unresolved": 57,
+      "ownership_cycle": 122,
+      "proverbs_unresolved": 4,
+      "related_self_reference": 16,
+      "related_unresolved": 27512,
+      "source_definition_unavailable": 5456,
+      "synonyms_unresolved": 1452,
+      "unclassified_parenthesized_surface": 2
+    },
+    "correlated_grammar": {
+      "bundle_not_cartesian": 48694,
+      "explicit_person_number_alternatives": 213,
+      "source_bundle": 1050451
+    }
+  },
+  "normalization_collision_groups": {
+    "exact": [],
+    "reading": [
+      [
+        "grc",
+        55974,
+        7
+      ],
+      [
+        "la",
+        735114,
+        10
+      ]
+    ],
+    "tolerant": [
+      [
+        "grc",
+        73923,
+        13
+      ],
+      [
+        "la",
+        735114,
+        10
+      ]
+    ],
+    "spelling": [
+      [
+        "grc",
+        73923,
+        13
+      ],
+      [
+        "la",
+        727185,
+        10
+      ]
+    ]
+  },
+  "case_studies": [
+    {
+      "language": "la",
+      "query": "amātīs",
+      "occurrences": 13,
+      "roots": [
+        [
+          "amāta",
+          "noun"
+        ],
+        [
+          "amātus",
+          "noun"
+        ],
+        [
+          "amō",
+          "verb"
+        ]
+      ],
+      "diagnostic_query_ms": 1.636,
+      "participle_path_to_verb": "passed"
+    },
+    {
+      "language": "la",
+      "query": "amātus",
+      "occurrences": 8,
+      "roots": [
+        [
+          "amāta",
+          "noun"
+        ],
+        [
+          "amātus",
+          "noun"
+        ],
+        [
+          "amō",
+          "verb"
+        ]
+      ],
+      "diagnostic_query_ms": 0.861
+    },
+    {
+      "language": "la",
+      "query": "amare",
+      "occurrences": 12,
+      "roots": [
+        [
+          "amārus",
+          "adj"
+        ],
+        [
+          "amārē",
+          "adv"
+        ],
+        [
+          "amō",
+          "verb"
+        ]
+      ],
+      "diagnostic_query_ms": 1.263
+    },
+    {
+      "language": "la",
+      "query": "mālum",
+      "occurrences": 20,
+      "roots": [
+        [
+          "malum",
+          "intj"
+        ],
+        [
+          "malum",
+          "noun"
+        ],
+        [
+          "malus",
+          "adj"
+        ],
+        [
+          "mālum",
+          "noun"
+        ],
+        [
+          "mālus",
+          "noun"
+        ]
+      ],
+      "diagnostic_query_ms": 2.012
+    },
+    {
+      "language": "grc",
+      "query": "λόγοις",
+      "occurrences": 2,
+      "roots": [
+        [
+          "λόγος",
+          "noun"
+        ]
+      ],
+      "diagnostic_query_ms": 0.389
+    },
+    {
+      "language": "grc",
+      "query": "λελύκαμεν",
+      "occurrences": 2,
+      "roots": [
+        [
+          "λῡ̆́ω",
+          "verb"
+        ]
+      ],
+      "diagnostic_query_ms": 0.37
+    },
+    {
+      "language": "grc",
+      "query": "ἔργον",
+      "occurrences": 19,
+      "roots": [
+        [
+          "ἔργον",
+          "noun"
+        ],
+        [
+          "ἔργω",
+          "verb"
+        ]
+      ],
+      "diagnostic_query_ms": 2.196
+    },
+    {
+      "language": "grc",
+      "query": "ἀδευκής",
+      "occurrences": 2,
+      "roots": [
+        [
+          "ἀδευκής",
+          "adj"
+        ]
+      ],
+      "diagnostic_query_ms": 0.4
+    },
+    {
+      "language": "grc",
+      "query": "𐠞𐠪𐠐𐠵𐠩",
+      "occurrences": 2,
+      "roots": [
+        [
+          "βᾰσῐλεύς",
+          "noun"
+        ],
+        [
+          "𐠞𐠪𐠐𐠵𐠩",
+          "noun"
+        ]
+      ],
+      "diagnostic_query_ms": 0.346
+    }
+  ],
+  "verification_seconds": 88.947,
+  "limits": [
+    "Diagnostic local queries are not a browser performance benchmark.",
+    "Candidate targets are not disambiguated lexeme identities.",
+    "All source content is retained; unresolved source assertions remain explicit.",
+    "Other Wiktionary channels and historical rendered pages are not proven complete by this capture."
+  ],
+  "exports": {
+    "issues.jsonl": {
+      "bytes": 12878696,
+      "sha256": "53a386a33902908e72c7092640d9842692ff88edbe14722b79fb6c71730e06bd"
+    },
+    "unresolved-links.jsonl": {
+      "bytes": 8664546,
+      "sha256": "5d6440cbd33b24b60879b3c8970edef4c08de591b8a1723c8ddc2ba93b54b17e"
+    },
+    "unresolved-ownership.jsonl": {
+      "bytes": 106458,
+      "sha256": "3bebe1c1f56ab3bf3fa8c2274ee32bd140591524834b4636da8b47b487075eef"
+    },
+    "unresolved-relations.jsonl": {
+      "bytes": 12193522,
+      "sha256": "7a0bd0334c4f829c07d2a202fb56dc563d30ec877b42b443540df1c6b53a2999"
+    }
+  }
+}

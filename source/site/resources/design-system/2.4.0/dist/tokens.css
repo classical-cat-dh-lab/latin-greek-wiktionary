@@ -1,0 +1,142 @@
+/* GENERATED from tokens.json; version 2.4.0. */
+:root {
+  --ds-color-brand-title: #66023C;
+  --ds-color-section-title: #A52A2A;
+  --ds-color-link: #AA4A3B;
+  --ds-color-error: #A52A2A;
+  --ds-color-success: #5B6D50;
+  --ds-color-warning: #E2A76F;
+  --ds-color-highlight-border: #E2A76F;
+  --ds-color-surface-base: #F4F5F0;
+  --ds-color-surface-raised: #EAECE6;
+  --ds-color-text-primary: #2C3E50;
+  --ds-color-warning-text: #2C3E50;
+  --ds-color-caption: #2C3E50;
+  --ds-color-source: #AA4A3B;
+  --ds-color-table-header: #2C3E50;
+  --ds-color-chart-axis: #2C3E50;
+  --ds-color-chart-1: #AA4A3B;
+  --ds-color-chart-2: #5B6D50;
+  --ds-color-chart-3: #A52A2A;
+  --ds-color-warning-border: #E2A76F;
+  --ds-color-action-primary: #66023C;
+  --ds-color-text-muted: #2C3E50;
+  --ds-color-text-muted-bw: #2C3E50;
+  --ds-color-border: #E2A76F;
+  --ds-font-serif-classical: "Gentium Plus", "New Athena Unicode", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", "Yu Mincho", serif;
+  --ds-font-sans-ui: "Inter", -apple-system, BlinkMacSystemFont, "Roboto", "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --ds-font-display: "Cinzel", "Gentium Plus", serif;
+  --ds-font-mono: ui-monospace, "SF Mono", "Menlo", "Consolas", "Liberation Mono", monospace;
+  --ds-font-serif-editorial: "Gentium Plus", "New Athena Unicode", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --ds-font-serif-cjk: "Gentium Plus CJK", "New Athena Unicode CJK", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --ds-text-micro: 0.778rem;
+  --ds-text-small: 0.889rem;
+  --ds-text-body: 1.125rem;
+  --ds-text-h4: 1.25rem;
+  --ds-text-h3: 1.563rem;
+  --ds-text-h2: 1.953rem;
+  --ds-text-h1: 2.746rem;
+  --ds-leading-body: 1.6;
+  --ds-leading-heading: 1.25;
+  --ds-measure-prose: 68ch;
+  --ds-space-1: 0.25rem;
+  --ds-space-2: 0.5rem;
+  --ds-space-3: 1rem;
+  --ds-space-4: 1.5rem;
+  --ds-space-5: 2rem;
+  --ds-space-6: 3rem;
+  --ds-bp-md: 48rem;
+  --ds-bp-lg: 72rem;
+  --ds-container-prose: 46rem;
+  --ds-container-wide: 72rem;
+  --ds-radius-sm: 0.25rem;
+  --ds-radius-md: 0.5rem;
+  --ds-z-dropdown: 100;
+  --ds-z-overlay: 500;
+  --ds-z-modal: 1000;
+  --ds-z-toast: 1500;
+  --ds-touch-min: 2.75rem;
+  --ds-dur-fast: 120ms;
+  --ds-dur-normal: 200ms;
+  --ds-dur-slow: 300ms;
+  --ds-ease: cubic-bezier(0.2, 0, 0, 1);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+  --ds-color-brand-title: #D4AF37;
+  --ds-color-section-title: #EB6E56;
+  --ds-color-link: #D0826A;
+  --ds-color-error: #EB6E56;
+  --ds-color-success: #63B08C;
+  --ds-color-warning: #E2A76F;
+  --ds-color-highlight-border: #E2A76F;
+  --ds-color-surface-base: #1A1C20;
+  --ds-color-surface-raised: #24272D;
+  --ds-color-text-primary: #DFE2DA;
+  --ds-color-warning-text: #DFE2DA;
+  --ds-color-caption: #DFE2DA;
+  --ds-color-source: #D0826A;
+  --ds-color-table-header: #DFE2DA;
+  --ds-color-chart-axis: #DFE2DA;
+  --ds-color-chart-1: #D0826A;
+  --ds-color-chart-2: #63B08C;
+  --ds-color-chart-3: #EB6E56;
+  --ds-color-warning-border: #E2A76F;
+  --ds-color-action-primary: #D4AF37;
+  --ds-color-text-muted: #DFE2DA;
+  --ds-color-text-muted-bw: #DFE2DA;
+  --ds-color-border: rgba(223, 226, 218, 0.1);
+  }
+}
+:root[data-theme="dark"] {
+  --ds-color-brand-title: #D4AF37;
+  --ds-color-section-title: #EB6E56;
+  --ds-color-link: #D0826A;
+  --ds-color-error: #EB6E56;
+  --ds-color-success: #63B08C;
+  --ds-color-warning: #E2A76F;
+  --ds-color-highlight-border: #E2A76F;
+  --ds-color-surface-base: #1A1C20;
+  --ds-color-surface-raised: #24272D;
+  --ds-color-text-primary: #DFE2DA;
+  --ds-color-warning-text: #DFE2DA;
+  --ds-color-caption: #DFE2DA;
+  --ds-color-source: #D0826A;
+  --ds-color-table-header: #DFE2DA;
+  --ds-color-chart-axis: #DFE2DA;
+  --ds-color-chart-1: #D0826A;
+  --ds-color-chart-2: #63B08C;
+  --ds-color-chart-3: #EB6E56;
+  --ds-color-warning-border: #E2A76F;
+  --ds-color-action-primary: #D4AF37;
+  --ds-color-text-muted: #DFE2DA;
+  --ds-color-text-muted-bw: #DFE2DA;
+  --ds-color-border: rgba(223, 226, 218, 0.1);
+}
+@media print {
+  :root, :root[data-theme="dark"], :root[data-theme="light"] {
+  --ds-color-brand-title: #66023C;
+  --ds-color-section-title: #A52A2A;
+  --ds-color-link: #AA4A3B;
+  --ds-color-error: #A52A2A;
+  --ds-color-success: #5B6D50;
+  --ds-color-warning: #E2A76F;
+  --ds-color-highlight-border: #E2A76F;
+  --ds-color-surface-base: #FFFFFF;
+  --ds-color-surface-raised: #EAECE6;
+  --ds-color-text-primary: #232323;
+  --ds-color-warning-text: #232323;
+  --ds-color-caption: #232323;
+  --ds-color-source: #AA4A3B;
+  --ds-color-table-header: #232323;
+  --ds-color-chart-axis: #232323;
+  --ds-color-chart-1: #AA4A3B;
+  --ds-color-chart-2: #5B6D50;
+  --ds-color-chart-3: #A52A2A;
+  --ds-color-warning-border: #E2A76F;
+  --ds-color-action-primary: #66023C;
+  --ds-color-text-muted: #232323;
+  --ds-color-text-muted-bw: #666666;
+  --ds-color-border: #E2A76F;
+  }
+}

@@ -1,0 +1,15 @@
+/* GENERATED document profiles; brand identity stays with the consumer. */
+[data-ds-document="teaching"] {
+  --ds-font-prose: "Gentium Plus", "New Athena Unicode", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", "Yu Mincho", serif;
+  --ds-font-title: "Cinzel", "Gentium Plus", serif;
+}
+[data-ds-document="research-brief"] {
+  --ds-font-prose: "Gentium Plus", "New Athena Unicode", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --ds-font-title: "Gentium Plus", "New Athena Unicode", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+}
+[data-ds-document="public-brief"] {
+  --ds-font-prose: "Gentium Plus", "New Athena Unicode", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --ds-font-title: "Gentium Plus", "New Athena Unicode", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+}
+[data-ds-document] { font-family: var(--ds-font-prose); }
+[data-ds-document]:lang(zh) { --ds-font-prose: var(--ds-font-serif-cjk); --ds-font-title: var(--ds-font-serif-cjk); }
