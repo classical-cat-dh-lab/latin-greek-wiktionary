@@ -9,7 +9,11 @@ lookup or runtime morphological analysis.
 **[Download the release](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/tag/v0.1.0-beta.1)**
 
 Version **0.1.0-beta.1** freezes the first backend contract for a student trial.
-Presentation is provisional and will be revised before 1.0. The current support
+Presentation is provisional and will be revised before 1.0.
+The website and signed beta source are public. Zenodo archival upload is currently
+incomplete after transfer failures; the DOI in the citation metadata is reserved
+and does not yet identify a published archive. GitHub release downloads are the
+current public distribution. This does not affect the offline website. The current support
 target is maintained Safari, Chrome, Firefox and Edge on macOS 15 or later.
 The release evidence distinguishes that target from the OS actually tested.
 
