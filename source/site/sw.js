@@ -33,13 +33,20 @@ self.addEventListener('activate', event=>event.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', event=>{
   if(event.request.method!=='GET' || !event.request.url.startsWith(self.registration.scope)) return;
   event.respondWith((async()=>{
+    const url=new URL(event.request.url);
+    // Data readers already checked CacheStorage. Recovery must reach the network
+    // even when deleting a damaged cached file failed. Keep shell updates pinned.
+    if(event.request.cache==='no-store' && url.href.startsWith(new URL('data/',self.registration.scope).href))
+      return fetch(event.request);
     let manifest;
     try{manifest=await loadManifest();}catch{return fetch(event.request);}
-    const url=new URL(event.request.url);
     if(url.href===new URL('manifest.json',self.registration.scope).href)
       return (await caches.open(BOOT)).match(url);
     if(event.request.mode==='navigate' && url.pathname===new URL(self.registration.scope).pathname) url.pathname+='index.html';
-    const hit=await (await caches.open('formlex-'+manifest.package)).match(url);
-    return hit ?? fetch(event.request);
+    try {
+      const hit=await (await caches.open('formlex-'+manifest.package)).match(url);
+      if(hit) return hit;
+    } catch { /* Storage failure must not prevent an available online response. */ }
+    return fetch(event.request);
   })());
 });

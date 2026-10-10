@@ -1,17 +1,18 @@
-# Build and inspect version 0.1.0-beta.1
+# Build and inspect version 0.1.1
 
 The data builder uses only Python's standard library. Qualification used Python
 3.14; the manifest records its Unicode and SQLite versions. Reader code uses
 native Web APIs. Node.js is needed only for JavaScript verification. There are no
 third-party runtime dependencies or remote fonts.
 
-Extract the raw-input release attachment into this checkout. It creates
+Use the unchanged raw-input attachment pinned in RELEASE-MANIFEST.json and
+extract it into this checkout. It creates
 `sources/capture/`, `sources/reviews/` and `sources/raw-inventory.json`.
 From the repository root:
 
 ```sh
 python3 -B -m unittest discover -s source/pipeline -p 'test_*.py'
-node --test source/tests/core.test.mjs
+node --test source/tests/core.test.mjs source/tests/runtime.test.mjs
 python3 -B source/pipeline/build.py --capture sources/capture --inventory sources/raw-inventory.json --output build/staging
 python3 -B source/pipeline/verify.py build/staging/dictionary.sqlite --output build/verification
 python3 -B source/pipeline/export_site.py build/staging/dictionary.sqlite --output build/reader
@@ -45,3 +46,12 @@ as JavaScript and `.json.gz` as `application/octet-stream` without a
 `Content-Encoding` header: the application verifies and decompresses these bytes.
 Do not rewrite missing assets to HTML. Keep manifest/service-worker responses
 revalidated so explicit package updates can be discovered.
+
+## Patch data reuse
+
+Version 0.1.1 changes the query/storage runtime and release identity only.
+The shipped SQLite database and raw inputs retain their 0.1.0-beta.1 filenames
+and checksums. BACKEND-FREEZE.json remains that original data qualification.
+RELEASE-MANIFEST.json identifies the current reader and its inherited data assets.
+The portable SQLite exporter retains the frozen data-edition version; the reader
+exporter emits the current application version.

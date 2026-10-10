@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this data edition when referring to this edition's corrections and organization."
 type: dataset
 title: "Latin & Ancient Greek dictionary: Wiktionary-derived edition"
-version: 0.1.0-beta.1
-date-released: 2026-09-30
+version: 0.1.1
+date-released: 2026-10-10
 authors:
   - family-names: Fang
     given-names: Xinjie
@@ -13,4 +13,3 @@ authors:
 license: CC-BY-SA-4.0
 repository-code: https://github.com/classical-cat-dh-lab/latin-greek-wiktionary
 url: https://data.latingreek.org/wiktionary/
-doi: 10.5281/zenodo.23055716

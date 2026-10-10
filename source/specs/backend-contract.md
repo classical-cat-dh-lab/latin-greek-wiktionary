@@ -68,6 +68,15 @@ Missing bootstrap metadata is recoverable online; an incompatible edition requir
 an update. Damaged files are rejected and recovered online. Offline failure never
 claims a successful empty lookup or a complete saved package.
 
+Runtime revision r1, released as 0.1.1 (2026-10-10) makes CacheStorage optional for
+online lookup. Storage open/read/delete failures fall back to a size/hash-verified
+network response; explicit data recovery bypasses the service-worker cache.
+Initialization publishes its manifest and file map together, so a failed attempt
+can be retried in the same worker. Unavailable or corrupt data still returns an
+error, never a successful empty result. This repair retains API 1, the lexical
+contract, normalization and the frozen data bytes; qualification is in
+[release notes](../../RELEASE.md).
+
 Save offline verifies every file. Browser storage can be refused or evicted;
 readiness on reopening checks presence and individual reads check integrity.
 Older caches are retained during upgrades to protect other tabs. This beta does

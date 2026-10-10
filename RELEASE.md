@@ -1,41 +1,41 @@
-# 0.1 beta — 0.1.0-beta.1
+# v0.1.1 — Cache recovery baseline
 
-The first public student-trial release freezes backend contract `lexical-entry/1`.
-It includes 960,519 source records, 1,099,358 sense records, 2,798,763 admitted
-spellings and 4,930,669 indexed form occurrences. The text-only offline package is
-481,538,396 bytes (459.2 MiB). The portable SQLite database is 3,982,229,504 bytes;
-its gzip download is 1,222,929,658 bytes.
+Released 10 October 2026. This patch keeps the current dictionary presentation
+and establishes the baseline for the planned v0.2 frontend redesign.
 
-All original base records round-trip to their pinned source hashes. Three Greek
-omissions were recovered from fixed page witnesses. Of the prior 795 unresolved
-form/variant assertions, 38 English explanatory tails were suppressed as false
-ownership relations and 10 qualified targets repaired. Source supplements close
-additional paths. 1,013 form-only entries still have unresolved ownership; their
-source text remains searchable and the uncertainty is displayed. General lexical
-cross-references also retain unresolved states, including other languages outside
-this edition. This is not a certification of all Wiktionary channels or scholarship.
+Online lookup now survives browser cache open/read failures. Initialization can
+be retried after failure, and corrupt cached files can be recovered even if their
+deletion fails. Recovery requests bypass the service-worker data cache and still
+require the declared size and SHA-256; unavailable data is an error, not an empty
+lookup result. Updates continue to require explicit activation.
 
-Qualification passed 37 Python and 9 JavaScript unit cases, every source record,
-every delivered entry/sense/form/relation/link, 11,195,052 full-profile queries and
-22,390,104 normalization comparisons. The final shell differs from the fully
-record-verified candidate only by its first-install update-button correction; all
-data file hashes are identical and every final file hash was independently checked.
+The fixed source capture, source repairs, lexical ownership, normalization and
+`lexical-entry/1` remain unchanged. All 5,801 dictionary data files are byte-identical
+to 0.1.0-beta.1. The reader package is `e57da3e515454dff06ad`, 481,539,167 bytes
+(459.2 MiB). It contains 960,519 source occurrences and 1,099,358 senses.
 
-Actual Chrome 154.0.8037.92 and Edge 154.0.4258.48 passed 17 integration cases each;
-Firefox passed 10. Tests include full saving, cancellation/resumption, rejected
-corruption, quota refusal, recovery and a new browser process with the server
-unavailable. Five additional lifecycle checks cover protocol errors, damaged
-cache recovery, missing bootstrap recovery and explicit two-version activation.
-Safari 27.0.1 GUI observations cover both languages, the new source repairs, full
-saving, offline new-tab reopening and cold internal navigation. The host was
-macOS 27.0.1; macOS 15/Intel execution and whole-process Safari restart were not
-measured. The declared support target remains maintained macOS 15+ browsers.
+New attachments contain the complete offline reader with a portable local server,
+the signed software source, the schema/field guide, RELEASE-MANIFEST.json and
+SHA256SUMS. The unchanged SQLite and input archives remain at their original,
+checksum-pinned release URLs:
 
-Known beta boundaries: the UI is provisional; missing source meanings are not
-invented; source glosspaths are not a reconstructed cross-record sense tree; older
-package caches are retained during upgrades. Semantic data fields intentionally
-repeat source material to keep the consumer contract explicit. Further package-size
-and presentation work can be assessed after student feedback without changing the
-frozen backend. No automatic upstream refresh is scheduled.
+- [SQLite database](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/download/v0.1.0-beta.1/wiktionary-0.1.0-beta.1.sqlite.gz)
+- [Original inputs and revision witnesses](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/download/v0.1.0-beta.1/wiktionary-0.1.0-beta.1-inputs.tar.gz)
 
-See `BACKEND-FREEZE.json`, `source/evidence/`, `NOTICE.md` and `BUILD.md`.
+The reader manifest records application version 0.1.1. The unchanged SQLite
+metadata retains data-edition version 0.1.0-beta.1; BACKEND-FREEZE.json preserves
+its original qualification. RELEASE-MANIFEST.json ties these identities together.
+
+Verification includes 37 Python and 19 JavaScript tests in the public source,
+10 runtime fault checks against the packaged bytes, all 5,844 file hashes, and
+an actual beta-to-0.1.1 update in Chrome. The identical r1 runtime passed 17
+integration checks each in Chrome and Edge and 10 in Firefox, including complete
+saving and cold browser-process restart with the server unavailable. Final-package
+Safari observations are recorded in source/evidence/v0.1.1-qualification.json.
+macOS 15 and Intel execution remain unmeasured; macOS 15+ maintained browsers
+remain the support target.
+
+Frontend presentation remains provisional. The existing 1,013 unresolved form
+owners retain their source text and explicit status. No upstream refresh or
+scholarly data revision is included. The earlier Zenodo Dataset draft remains
+unpublished; this routine patch does not create or claim a new DOI.

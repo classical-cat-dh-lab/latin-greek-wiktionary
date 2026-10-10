@@ -6,24 +6,28 @@ readings and dictionary links. The runtime uses a finite index, without a server
 lookup or runtime morphological analysis.
 
 **[Open the reader](https://data.latingreek.org/wiktionary/)** ·
-**[Download the release](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/tag/v0.1.0-beta.1)**
+**[Download the release](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/tag/v0.1.1)**
 
-Version **0.1.0-beta.1** freezes the first backend contract for a student trial.
-Presentation is provisional and will be revised before 1.0.
-The website and signed beta source are public. Zenodo archival upload is currently
-incomplete after transfer failures; the DOI in the citation metadata is reserved
-and does not yet identify a published archive. GitHub release downloads are the
-current public distribution. This does not affect the offline website. The current support
-target is maintained Safari, Chrome, Firefox and Edge on macOS 15 or later.
-The release evidence distinguishes that target from the OS actually tested.
+Version **0.1.1** fixes online lookup recovery when browser cache access fails.
+It is the baseline before the planned 0.2 frontend redesign. The lexical data,
+normalization and `lexical-entry/1` contract remain frozen; presentation is
+provisional. Maintained Safari, Chrome, Firefox and Edge on macOS 15+ remain
+the support target. See [release notes](RELEASE.md) for measured verification.
 
 ## Downloads and reuse
 
-Release attachments provide a gzip-compressed SQLite database, its schema and
-field guide, the complete static reader, fixed raw source slices and revision
-witnesses, and the matching software source. Large data files are release assets,
-not Git history. `SHA256SUMS` identifies the exact attachments. The Zenodo Dataset
-record archives the actual data and supporting attachments; see `CITATION.cff`.
+The [0.1.1 release](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/tag/v0.1.1)
+provides the complete offline reader, software source, field guide and checksums.
+The unchanged [SQLite database](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/download/v0.1.0-beta.1/wiktionary-0.1.0-beta.1.sqlite.gz)
+and [original inputs and witnesses](https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/download/v0.1.0-beta.1/wiktionary-0.1.0-beta.1-inputs.tar.gz)
+remain available under their original filenames.
+[RELEASE-MANIFEST.json](RELEASE-MANIFEST.json) pins their URLs, sizes and SHA-256
+values, alongside the current reader identity. Large data files are release assets,
+not Git history. `SHA256SUMS` covers both new attachments and inherited data files.
+
+The earlier Zenodo Dataset draft remains unpublished after transfer failures.
+This patch does not claim a new DOI or completed Dataset archive. GitHub is the
+current distribution for the website, source and data packages.
 
 Read [the backend contract](source/specs/backend-contract.md),
 [normalization rules](source/specs/normalization.md), [build instructions](BUILD.md),

@@ -171,6 +171,7 @@ def main():
         for table in ('entry', 'sense', 'form', 'surface', 'link_occurrence', 'relation', 'ownership'):
             manifest['counts'][table] = db.execute(f'SELECT count(*) FROM {table}').fetchone()[0]
         db.close()
+    manifest['version'] = RELEASE_VERSION
     manifest['shellBuild'] = package_shell(a.output, manifest['edition'], manifest['files'])
     for p in sorted(a.output.rglob('*')):
         if p.is_file() and 'data' not in p.relative_to(a.output).parts and p != a.output/'manifest.json':

@@ -9,8 +9,21 @@ async function init() {
   if (manifest) return;
   const r = await fetch('./manifest.json');
   if (!r.ok) throw new Error('Dictionary manifest unavailable');
-  manifest = validateManifest(await r.json()); files = new Map(manifest.files.map(f=>[f.path,f]));
-  cache = await caches.open('formlex-'+manifest.package);
+  const next = validateManifest(await r.json());
+  const nextFiles = new Map(next.files.map(f=>[f.path,f]));
+  // Publish complete state only; a failed initialization must remain retryable.
+  files = nextFiles; manifest = next;
+}
+async function cachedResponse(url, spec) {
+  // Persistent storage is optional for online lookup. Always verify cached bytes.
+  try {
+    cache ??= await caches.open('formlex-'+manifest.package);
+    const response = await cache.match(url) ?? await caches.match(url);
+    if (!response) return null;
+    try {return await verifiedResponse(response,spec);}
+    catch {await cache.delete(url);}
+  } catch {cache = null;}
+  return null;
 }
 async function load(path) {
   await init();
@@ -18,11 +31,7 @@ async function load(path) {
   const spec=files.get(path);
   if (!spec) throw new Error('Missing manifest item: '+path);
   const url=new URL(path, self.location.href).href;
-  let response=await cache.match(url) ?? await caches.match(url);
-  if (response) {
-    try {response=await verifiedResponse(response,spec);}
-    catch {await cache.delete(url);response=null;}
-  }
+  let response=await cachedResponse(url,spec);
   if (!response) response=await verifiedResponse(await fetch(url,{cache:'no-store'}),spec);
   const text=await new Response(response.body.pipeThrough(new DecompressionStream('gzip'))).text();
   const decoded=JSON.parse(text), bytes=spec.expandedBytes;

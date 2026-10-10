@@ -2,7 +2,7 @@
 from urllib.parse import quote
 
 CONTRACT = 'lexical-entry/1'
-VERSION = '0.1.0-beta.1'
+VERSION = '0.1.1'
 
 
 def attach_model(entry, source_hash, raw_hash):

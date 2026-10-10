@@ -1,0 +1,280 @@
+{
+  "date": "2026-10-10",
+  "version": "0.1.1",
+  "package": "e57da3e515454dff06ad",
+  "pass": true,
+  "host": {
+    "macos": "27.0.1",
+    "build": "26A434",
+    "architecture": "arm64",
+    "python": "3.14.7",
+    "node": "26.7.0"
+  },
+  "unit_tests": {
+    "public_python_passed": 37,
+    "public_javascript_passed": 19,
+    "packaged_runtime_passed": 10
+  },
+  "package_integrity": {
+    "pass": true,
+    "version": "0.1.1",
+    "package": "e57da3e515454dff06ad",
+    "manifest_sha256": "05388aff1c449c6c94c52042ab76677665f13b8d46d581737926c50c53f13070",
+    "verified_files": 5844,
+    "identical_data_files": 5801,
+    "changed_from_beta": [
+      "index.html",
+      "sw.js",
+      "worker.mjs"
+    ],
+    "runtime_identical_to_qualified_r1": true
+  },
+  "lifecycle": {
+    "pass": true,
+    "package": "e57da3e515454dff06ad",
+    "browser": "155.0.8059.39",
+    "checks": [
+      "structured protocol errors",
+      "online lookup survives cache open refusal",
+      "online lookup survives cache match refusal",
+      "online lookup survives cache delete refusal",
+      "damaged cached shard restored online",
+      "missing bootstrap restored online",
+      "new package waits while current reader stays active",
+      "explicit activation reloads matching shell and manifest"
+    ]
+  },
+  "beta_upgrade": {
+    "pass": true,
+    "package": "e57da3e515454dff06ad",
+    "fromPackage": "66a15aed906a7d120b2d",
+    "browser": "155.0.8059.39",
+    "checks": [
+      "structured protocol errors",
+      "damaged cached shard restored online",
+      "missing bootstrap restored online",
+      "new package waits while current reader stays active",
+      "explicit activation reloads matching shell and manifest",
+      "online lookup survives cache open refusal",
+      "online lookup survives cache match refusal",
+      "Greek lookup after real release upgrade"
+    ]
+  },
+  "identical_runtime_r1_browser_checks": [
+    {
+      "name": "chrome",
+      "version": "155.0.8059.39",
+      "checks": [
+        {
+          "name": "light default and persisted manual night theme",
+          "pass": true
+        },
+        {
+          "name": "Latin participle routes to verb and retains lexical noun",
+          "pass": true
+        },
+        {
+          "name": "selected token contrast in both themes",
+          "pass": true
+        },
+        {
+          "name": "reviewed source gaps and repaired inflection ownership",
+          "pass": true
+        },
+        {
+          "name": "Greek homographs and uncertain meaning",
+          "pass": true
+        },
+        {
+          "name": "paragraph offsets, one-word selection and clear races",
+          "pass": true
+        },
+        {
+          "name": "unresolved form visibly marked",
+          "pass": true
+        },
+        {
+          "name": "abbreviations, sentence punctuation, quotes and source soft hyphens",
+          "pass": true
+        },
+        {
+          "name": "internal navigation and back",
+          "pass": true
+        },
+        {
+          "name": "desktop/mobile layout and no source-injected markup",
+          "pass": true
+        },
+        {
+          "name": "query timing sample with a fresh worker and warm repetition",
+          "pass": true
+        },
+        {
+          "name": "quota refusal is incomplete and recoverable",
+          "pass": true
+        },
+        {
+          "name": "corrupt download is rejected",
+          "pass": true
+        },
+        {
+          "name": "cancel partial installation and resume",
+          "pass": true
+        },
+        {
+          "name": "complete installation and measured storage",
+          "pass": true
+        },
+        {
+          "name": "missing saved file detected at restart and restored",
+          "pass": true
+        },
+        {
+          "name": "cold browser-process restart with server unavailable",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "edge",
+      "version": "154.0.4258.48",
+      "checks": [
+        {
+          "name": "light default and persisted manual night theme",
+          "pass": true
+        },
+        {
+          "name": "Latin participle routes to verb and retains lexical noun",
+          "pass": true
+        },
+        {
+          "name": "selected token contrast in both themes",
+          "pass": true
+        },
+        {
+          "name": "reviewed source gaps and repaired inflection ownership",
+          "pass": true
+        },
+        {
+          "name": "Greek homographs and uncertain meaning",
+          "pass": true
+        },
+        {
+          "name": "paragraph offsets, one-word selection and clear races",
+          "pass": true
+        },
+        {
+          "name": "unresolved form visibly marked",
+          "pass": true
+        },
+        {
+          "name": "abbreviations, sentence punctuation, quotes and source soft hyphens",
+          "pass": true
+        },
+        {
+          "name": "internal navigation and back",
+          "pass": true
+        },
+        {
+          "name": "desktop/mobile layout and no source-injected markup",
+          "pass": true
+        },
+        {
+          "name": "query timing sample with a fresh worker and warm repetition",
+          "pass": true
+        },
+        {
+          "name": "quota refusal is incomplete and recoverable",
+          "pass": true
+        },
+        {
+          "name": "corrupt download is rejected",
+          "pass": true
+        },
+        {
+          "name": "cancel partial installation and resume",
+          "pass": true
+        },
+        {
+          "name": "complete installation and measured storage",
+          "pass": true
+        },
+        {
+          "name": "missing saved file detected at restart and restored",
+          "pass": true
+        },
+        {
+          "name": "cold browser-process restart with server unavailable",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "firefox",
+      "version": "157.0.1",
+      "checks": [
+        {
+          "name": "Latin participle and Greek readings",
+          "pass": true
+        },
+        {
+          "name": "source repairs and all six punctuation regressions",
+          "pass": true
+        },
+        {
+          "name": "passage text, escaping and clear race",
+          "pass": true
+        },
+        {
+          "name": "contrast and persisted night mode",
+          "pass": true
+        },
+        {
+          "name": "quota refusal",
+          "pass": true
+        },
+        {
+          "name": "corrupt file rejected",
+          "pass": true
+        },
+        {
+          "name": "cancel and resumable partial cache",
+          "pass": true
+        },
+        {
+          "name": "complete offline installation",
+          "pass": true
+        },
+        {
+          "name": "missing file detection and restoration",
+          "pass": true
+        },
+        {
+          "name": "new Firefox process with server unavailable and cold internal navigation",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "safari": {
+    "version": "27.0.1",
+    "method": "Native Safari GUI on loopback; final release package",
+    "pass": true,
+    "checks": [
+      "Online Latin and Ancient Greek lookup",
+      "Complete offline installation reached Ready offline",
+      "Stopped preview server and reopened dictionary in a new tab",
+      "Cold unvisited Latin puellarum and Greek φιλοσοφία queries succeeded",
+      "Internal φῐλοσοφῐ́ᾱς navigation succeeded without server"
+    ],
+    "limits": [
+      "Tab restart, not a new Safari process",
+      "No injected storage-fault test in Safari"
+    ]
+  },
+  "limits": [
+    "macOS 15 and Intel execution remain unmeasured",
+    "Storage-fault regressions do not measure incidence in users browsers",
+    "Frontend acceptance remains open"
+  ]
+}

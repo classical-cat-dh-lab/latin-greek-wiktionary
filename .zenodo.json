@@ -1,7 +1,7 @@
 {
   "title": "Latin & Ancient Greek dictionary: Wiktionary-derived edition",
   "upload_type": "dataset",
-  "description": "<p>Version 0.1.0-beta.1 (beta): a fixed English Wiktionary-derived Latin and Ancient Greek dictionary by Classical Cat DH Lab, with source-qualified corrections and a finite offline word-form index. This record archives the actual portable SQLite data, static reader, original input slices, admitted source witnesses, software source and checksums. Frontend presentation remains provisional.</p><p>Derived data and data documentation: CC BY-SA 4.0, preserving Wiktionary contributor credit and separately credited quotations. Original software: AGPL-3.0-only; fonts retain their own licences. Independent edition, not endorsed by Wikimedia. See the included licence map and NOTICE.</p>",
+  "description": "<p>Version 0.1.1: cache-recovery patch for the fixed Wiktionary-derived Latin and Ancient Greek reader. Data, source corrections and lexical-entry/1 are unchanged from 0.1.0-beta.1. This software/source snapshot does not itself include the large SQLite or raw-input attachments; RELEASE-MANIFEST.json identifies their exact GitHub download URLs and checksums. No new Dataset DOI is claimed for this patch.</p><p>Data and data documentation: CC BY-SA 4.0; software: AGPL-3.0-only; inherited notices retained.</p>",
   "creators": [
     {
       "name": "Fang, Xinjie",
@@ -14,8 +14,8 @@
   ],
   "access_right": "open",
   "license": "cc-by-sa-4.0",
-  "version": "0.1.0-beta.1",
-  "publication_date": "2026-09-30",
+  "version": "0.1.1",
+  "publication_date": "2026-10-10",
   "keywords": [
     "Latin",
     "Ancient Greek",
@@ -26,7 +26,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/tree/v0.1.0-beta.1",
+      "identifier": "https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/tree/v0.1.1",
       "relation": "isSupplementedBy",
       "scheme": "url"
     },

@@ -1,0 +1,52 @@
+{
+  "version": "0.1.1",
+  "date": "2026-10-10",
+  "tag": "v0.1.1",
+  "repository": "https://github.com/classical-cat-dh-lab/latin-greek-wiktionary",
+  "website": "https://data.latingreek.org/wiktionary/",
+  "reader": {
+    "package": "e57da3e515454dff06ad",
+    "manifest_sha256": "05388aff1c449c6c94c52042ab76677665f13b8d46d581737926c50c53f13070",
+    "bytes": 481539167,
+    "files": 5844,
+    "edition": "capture-20260920-reviewed-c9841ec5c2e3"
+  },
+  "contract": "lexical-entry/1",
+  "normalization": "word-lookup-v2",
+  "counts": {
+    "postings": 4930669,
+    "entry": 960519,
+    "sense": 1099358,
+    "form": 5501961,
+    "surface": 2798763,
+    "link_occurrence": 3809203,
+    "relation": 1215740,
+    "ownership": 996430
+  },
+  "data_baseline": {
+    "version": "0.1.0-beta.1",
+    "package": "66a15aed906a7d120b2d",
+    "identical_data_files": 5801,
+    "freeze": "BACKEND-FREEZE.json"
+  },
+  "inherited_assets": [
+    {
+      "name": "wiktionary-0.1.0-beta.1-inputs.tar.gz",
+      "bytes": 110530559,
+      "sha256": "99e2f5711e839eab332d0594d8b7b24a93638a5868cbaf3c994c3832b076045c",
+      "url": "https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/download/v0.1.0-beta.1/wiktionary-0.1.0-beta.1-inputs.tar.gz"
+    },
+    {
+      "name": "wiktionary-0.1.0-beta.1.sqlite.gz",
+      "bytes": 1222929658,
+      "sha256": "669662e5f2799791c629e7f60c127d16f10a100897ba94aff9062627928c9827",
+      "url": "https://github.com/classical-cat-dh-lab/latin-greek-wiktionary/releases/download/v0.1.0-beta.1/wiktionary-0.1.0-beta.1.sqlite.gz"
+    }
+  ],
+  "next_frontend_version": "0.2",
+  "archive": {
+    "new_doi": null,
+    "previous_dataset_draft": 23055716,
+    "previous_dataset_published": false
+  }
+}
